@@ -1,0 +1,35 @@
+MIT License
+
+Copyright (c) 2026 felipefalkiner
+
+Esta licença cobre APENAS o material novo deste repositório: o código da
+recompilação (src/), as ferramentas (tools/, analysis/ferramentas/), o script
+build.ps1 e a documentação escrita para este projeto.
+
+NÃO estão cobertos por esta licença:
+  * legacy/ (programa original "Agenda Pokémon - Poké Fight v1.2", 2000, de
+    |Felix| e [_KangaskhaN_], distribuído pelos autores como "Programa de Livre
+    Distribuição", e utilitários de terceiros incluídos no pacote, como o
+    PKUNZJR da PKWARE);
+  * as imagens em legacy/ e assets/ e os textos extraídos do programa original
+    (analysis/dados, src/upokedados.pas, src/uextras.pas, src/*.lfm);
+  * Pokémon e todos os nomes, imagens e marcas relacionados, que pertencem à
+    Nintendo, Creatures Inc. e GAME FREAK inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of the covered software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

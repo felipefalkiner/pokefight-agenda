@@ -1,0 +1,583 @@
+object APKG: TAPKG
+  Left = 81
+  Top = 16
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Agenda Pok'#233'mon - Pok'#233' Fight v1.2'
+  ClientHeight = 504
+  ClientWidth = 644
+  Color = clBlack
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Menu = MainMenu1
+  Position = poDesktopCenter
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  object Gif: TImage
+    Left = 0
+    Top = 0
+    Width = 357
+    Height = 216
+  end
+  object RxGIFAnimator1: TImage
+    Left = 328
+    Top = 400
+    Width = 315
+    Height = 104
+  end
+  object sair: TImage
+    Left = 591
+    Top = 455
+    Width = 42
+    Height = 41
+    Cursor = crHandPoint
+    OnClick = RxGIFAnimator2Click
+  end
+  object Label2: TLabel
+    Left = 104
+    Top = 90
+    Width = 37
+    Height = 16
+    Caption = 'Tipo:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 64
+    Top = 115
+    Width = 55
+    Height = 16
+    Caption = 'Vers'#227'o:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 40
+    Top = 138
+    Width = 70
+    Height = 16
+    Caption = 'Evolu'#231#227'o:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 144
+    Top = 73
+    Width = 46
+    Height = 16
+    Caption = 'Nome:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object i1: TImage
+    Left = 192
+    Top = 352
+    Width = 105
+    Height = 17
+  end
+  object i2: TImage
+    Left = 192
+    Top = 384
+    Width = 105
+    Height = 17
+  end
+  object i3: TImage
+    Left = 192
+    Top = 416
+    Width = 105
+    Height = 17
+  end
+  object i4: TImage
+    Left = 192
+    Top = 448
+    Width = 105
+    Height = 17
+  end
+  object i5: TImage
+    Left = 192
+    Top = 480
+    Width = 105
+    Height = 17
+  end
+  object nn: TLabel
+    Left = 296
+    Top = 70
+    Width = 22
+    Height = 16
+    Caption = 'N'#186':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object animator: TImage
+    Left = 384
+    Top = 184
+    Width = 214
+    Height = 236
+  end
+  object Label1: TLabel
+    Left = 24
+    Top = 162
+    Width = 89
+    Height = 16
+    Caption = 'Localiza'#231#227'o:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 192
+    Top = 330
+    Width = 59
+    Height = 16
+    Caption = 'Energia:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label12: TLabel
+    Left = 192
+    Top = 362
+    Width = 54
+    Height = 16
+    Caption = 'Ataque:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label13: TLabel
+    Left = 192
+    Top = 394
+    Width = 55
+    Height = 16
+    Caption = 'Defesa:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label15: TLabel
+    Left = 192
+    Top = 458
+    Width = 66
+    Height = 16
+    Caption = 'Especial:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label14: TLabel
+    Left = 192
+    Top = 426
+    Width = 85
+    Height = 16
+    Caption = 'Velocidade:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Hora: TLabel
+    Left = 379
+    Top = 478
+    Width = 35
+    Height = 16
+    Caption = 'Hora'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Data: TLabel
+    Left = 524
+    Top = 472
+    Width = 34
+    Height = 16
+    Caption = 'Data'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Image1: TImage
+    Left = 392
+    Top = 40
+    Width = 209
+    Height = 81
+  end
+  object Arquivo: TEdit
+    Left = 432
+    Top = 56
+    Width = 121
+    Height = 21
+    TabOrder = 13
+    Text = '001'
+    Visible = False
+  end
+  object full: TEdit
+    Left = 432
+    Top = 88
+    Width = 121
+    Height = 21
+    MaxLength = 8
+    TabOrder = 14
+    Visible = False
+  end
+  object GroupBox1: TGroupBox
+    Left = 16
+    Top = 328
+    Width = 169
+    Height = 129
+    Caption = 'Descri'#231#227'o:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 10
+  end
+  object GroupBox2: TGroupBox
+    Left = 16
+    Top = 192
+    Width = 169
+    Height = 129
+    Caption = 'Lista de Pok'#233'mons:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 24
+    Top = 216
+    Width = 153
+    Height = 21
+    TabOrder = 1
+    OnChange = Edit1Change
+  end
+  object ListBox1: TListBox
+    Left = 24
+    Top = 240
+    Width = 153
+    Height = 73
+    ItemHeight = 13
+    TabOrder = 2
+    OnClick = ListBox1Click
+  end
+  object Memo1: TMemo
+    Left = 24
+    Top = 352
+    Width = 153
+    Height = 97
+    PopupMenu = SairPop
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 3
+  end
+  object GroupBox3: TGroupBox
+    Left = 192
+    Top = 192
+    Width = 161
+    Height = 129
+    Caption = 'Movimentos:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    object movi: TMemo
+      Left = 8
+      Top = 24
+      Width = 145
+      Height = 97
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      PopupMenu = SairPop
+      ReadOnly = True
+      TabOrder = 0
+    end
+  end
+  object Edit2: TEdit
+    Left = 192
+    Top = 64
+    Width = 97
+    Height = 21
+    PopupMenu = SairPop
+    ReadOnly = True
+    TabOrder = 5
+  end
+  object Edit3: TEdit
+    Left = 144
+    Top = 88
+    Width = 209
+    Height = 21
+    PopupMenu = SairPop
+    ReadOnly = True
+    TabOrder = 6
+  end
+  object Edit4: TEdit
+    Left = 120
+    Top = 112
+    Width = 233
+    Height = 21
+    PopupMenu = SairPop
+    ReadOnly = True
+    TabOrder = 7
+  end
+  object Edit5: TEdit
+    Left = 112
+    Top = 136
+    Width = 241
+    Height = 21
+    PopupMenu = SairPop
+    ReadOnly = True
+    TabOrder = 8
+  end
+  object Edit6: TEdit
+    Left = 112
+    Top = 160
+    Width = 241
+    Height = 21
+    PopupMenu = SairPop
+    ReadOnly = True
+    TabOrder = 9
+  end
+  object Edit7: TEdit
+    Left = 320
+    Top = 64
+    Width = 33
+    Height = 21
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 11
+  end
+  object code: TBitBtn
+    Left = 56
+    Top = 464
+    Width = 81
+    Height = 25
+    Caption = 'Personagens'
+    TabOrder = 12
+    Visible = False
+    OnClick = codeClick
+  end
+  object Panel1: TPanel
+    Left = 80
+    Top = 11
+    Width = 113
+    Height = 33
+    BevelOuter = bvNone
+    Color = clBlack
+    TabOrder = 15
+  end
+  object MainMenu1: TMainMenu
+    object Arquivo1: TMenuItem
+      Caption = '&Arquivo'
+      object ListadeTMseHMs1: TMenuItem
+        Caption = 'Lista de &TM''s e HM''s'
+        ShortCut = 16468
+        OnClick = ListadeTMseHMs1Click
+      end
+      object ListadeitensdosPokMarts1: TMenuItem
+        Caption = 'Lista de itens dos Pok'#233'-&Marts'
+        ShortCut = 16461
+        OnClick = ListadeitensdosPokMarts1Click
+      end
+      object N5: TMenuItem
+        Caption = '-'
+      end
+      object Imprimir1: TMenuItem
+        Caption = 'Editar / Imprimir'
+        Enabled = False
+        ShortCut = 16464
+        OnClick = Imprimir1Click
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object Sair1: TMenuItem
+        Caption = '&Sair'
+        ShortCut = 16467
+        OnClick = Sair1Click
+      end
+    end
+    object Dicas1: TMenuItem
+      Caption = '&Dicas'
+      OnClick = AppEvents1Activate
+      object Cdigos1: TMenuItem
+        Caption = '&C'#243'digos'
+        ShortCut = 16451
+        object VersoAmarela1: TMenuItem
+          Caption = '&Vers'#227'o Amarela'
+          OnClick = VersoAmarela1Click
+        end
+      end
+      object GoldSilver1: TMenuItem
+        Caption = '&Gold/Silver'
+        ShortCut = 16455
+        OnClick = GoldSilver1Click
+      end
+    end
+    object Efeitos1: TMenuItem
+      Caption = '&Efeitos'
+      object Ligado: TMenuItem
+        Caption = 'L&igado'
+        ShortCut = 16457
+        OnClick = LigadoClick
+      end
+      object Desligado: TMenuItem
+        Caption = '&Desligado'
+        ShortCut = 16452
+        OnClick = DesligadoClick
+      end
+    end
+    object Internet1: TMenuItem
+      Caption = '&Internet'
+      object Email1: TMenuItem
+        Caption = '&E-mail'
+        OnClick = Email1Click
+      end
+      object WebSite1: TMenuItem
+        Caption = '&WebSite'
+        ShortCut = 16471
+        OnClick = WebSite1Click
+      end
+      object N3: TMenuItem
+        Caption = '-'
+      end
+      object Atualiza1: TMenuItem
+        Caption = 'Atualizar Agenda'
+        OnClick = Atualiza1Click
+      end
+    end
+    object Cor1: TMenuItem
+      Caption = '&Temas'
+      object t1: TMenuItem
+        Caption = '&Branco, Preto'
+        OnClick = t1Click
+      end
+      object t2: TMenuItem
+        Caption = 'Preto, &Verde'
+        OnClick = t2Click
+      end
+      object t3: TMenuItem
+        Caption = 'V&ermelho, Branco'
+        OnClick = t3Click
+      end
+      object t4: TMenuItem
+        Caption = 'A&zul, Branco'
+        OnClick = t4Click
+      end
+      object N4: TMenuItem
+        Caption = '-'
+      end
+      object t5: TMenuItem
+        Caption = '&Personalizar...'
+        OnClick = t5Click
+      end
+    end
+    object Sobre1: TMenuItem
+      Caption = 'S&obre...'
+      OnClick = Sobre1Click
+    end
+  end
+  object MenuBandeja: TPopupMenu
+    object KillerGym1: TMenuItem
+      Caption = '&Pok'#233' Fight'
+      Default = True
+      OnClick = KillerGym1Click
+    end
+    object Sobre2: TMenuItem
+      Caption = '&Sobre...'
+      GroupIndex = 10
+      OnClick = Sobre2Click
+    end
+    object SiteGym1: TMenuItem
+      Caption = '&WebSite'
+      GroupIndex = 10
+      OnClick = SiteGym1Click
+    end
+    object N2: TMenuItem
+      Tag = -1
+      Caption = '-'
+      GroupIndex = 10
+    end
+    object Sair2: TMenuItem
+      Caption = 'S&air'
+      GroupIndex = 10
+      OnClick = Sair2Click
+    end
+  end
+  object SairPop: TPopupMenu
+    object Proteo1: TMenuItem
+      Caption = '&Copiar'
+      OnClick = Proteo1Click
+    end
+    object Sair3: TMenuItem
+      Caption = '&Sair'
+      OnClick = Sair3Click
+    end
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+  end
+end

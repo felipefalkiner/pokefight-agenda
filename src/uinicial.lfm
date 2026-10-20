@@ -1,0 +1,61 @@
+object inicial: Tinicial
+  Left = 245
+  Top = 224
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsNone
+  Caption = 'inicial'
+  ClientHeight = 140
+  ClientWidth = 397
+  Color = clBlack
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Position = poDesktopCenter
+  OnActivate = FormActivate
+  object Image1: TImage
+    Left = 0
+    Top = 0
+    Width = 401
+    Height = 113
+  end
+  object Label1: TLabel
+    Left = 336
+    Top = 120
+    Width = 54
+    Height = 13
+    Caption = 'Vers'#227'o: 1.2'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 120
+    Width = 137
+    Height = 13
+    Caption = 'http://www.pokefight.cjb.net'
+    Color = clBlack
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clLime
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentColor = False
+    ParentFont = False
+  end
+  object enter: TBitBtn
+    Left = 288
+    Top = 72
+    Width = 75
+    Height = 25
+    Caption = '&Entrar'
+    TabOrder = 0
+    OnClick = enterClick
+    Kind = bkOK
+  end
+end

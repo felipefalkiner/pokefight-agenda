@@ -1,0 +1,18 @@
+Agenda Pokémon - Poké Fight v1.2  (recompilação para Windows 10/11)
+====================================================================
+
+Execute PokeFight.exe. Não precisa instalar nada.
+
+A pasta "data" precisa ficar ao lado do PokeFight.exe: ela tem as imagens
+dos Pokémon (000.gif a 151.gif), as barras de status (1.gif a 6.gif) e as
+imagens da interface (data\ui).
+
+As preferências (tema, efeitos, cores) ficam em %APPDATA%\PokeFightAgenda\agenda.ini.
+
+Atalho escondido: Ctrl+Shift+P mostra o botão "Personagens", que existia no
+programa original mas nunca aparecia (Ash, Brock, Misty, Oak, Team Rocket, Gary).
+
+Programa original (2000): |Felix| (programação e design) e [_KangaskhaN_]
+(imagens), site www.pokefight.cjb.net (fora do ar).
+Pokémon é marca registrada da Nintendo, Creatures Inc. e GAME FREAK inc.
+Projeto de preservação feito por fãs, sem fins lucrativos.

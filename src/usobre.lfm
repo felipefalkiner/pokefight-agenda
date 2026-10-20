@@ -1,0 +1,70 @@
+object about: Tabout
+  Left = 168
+  Top = 144
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Sobre...'
+  ClientHeight = 303
+  ClientWidth = 435
+  Color = clBlack
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Position = poDesktopCenter
+  OnActivate = FormActivate
+  OnClose = FormClose
+  object Image1: TImage
+    Left = 0
+    Top = 0
+    Width = 49
+    Height = 297
+  end
+  object code1: TImage
+    Left = 8
+    Top = 48
+    Width = 25
+    Height = 17
+    Enabled = False
+  end
+  object Image2: TImage
+    Left = 384
+    Top = 0
+    Width = 49
+    Height = 297
+  end
+  object SecretPanel1: TPanel
+    Left = 56
+    Top = 8
+    Width = 321
+    Height = 257
+    Hint = 'Clique para pausar'#13#10'e clique novamente para'#13#10'continuar...'
+    BevelOuter = bvNone
+    Color = clBlack
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
+    OnClick = SecretPanel1Click
+  end
+  object BitBtn1: TBitBtn
+    Left = 173
+    Top = 272
+    Width = 75
+    Height = 25
+    Caption = '&Fechar'
+    TabOrder = 0
+    OnClick = BitBtn1Click
+    Kind = bkOK
+  end
+  object Timer1: TTimer
+    Interval = 1
+    OnTimer = Timer1Timer
+  end
+end
