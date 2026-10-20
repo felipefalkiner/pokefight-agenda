@@ -1,3 +1,5 @@
+**Português** · [English](en/LEGACY-WIN11.md)
+
 # Rodando o original de 2000 no Windows 10/11
 
 ![O EXE original de 2000, com o patch, no Windows 11](img/legacy-win11-pikachu.png)

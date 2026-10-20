@@ -45,6 +45,7 @@ tar -xf (Join-Path $root 'legacy\original\DATA.GYM') -C "$dist\data"
 tar -xf (Join-Path $root 'legacy\original\IMG.GYM') -C "$dist\data"
 Copy-Item (Join-Path $root 'assets\ui\*') "$dist\data\ui"
 Copy-Item (Join-Path $root 'docs\LEIA-ME-dist.txt') "$dist\LEIA-ME.txt"
+Copy-Item (Join-Path $root 'docs\README-dist.en.txt') "$dist\README.txt"
 
 Write-Host '==> montando dist\PokeFight-Legado-Win11'
 $leg = Join-Path $root 'dist\PokeFight-Legado-Win11'

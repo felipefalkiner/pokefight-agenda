@@ -1,3 +1,5 @@
+**Português** · [English](README.en.md)
+
 # Agenda Pokémon — Poké Fight v1.2 (2000) · preservação
 
 Uma Pokédex brasileira feita por fãs em **Delphi 3**, de janeiro de 2000, que não
@@ -41,7 +43,7 @@ analysis/          engenharia reversa: relatório, 155 funções decompiladas, 1
 src/               recompilação em Lazarus (Object Pascal, compatível com o original)
 assets/ui/         imagens da interface extraídas dos forms do EXE
 tools/             scripts que regeneram tudo a partir do EXE original
-docs/              guias e capturas de tela
+docs/              guias (docs/en em inglês) e capturas de tela
 build.ps1          compila e monta dist/
 ```
 

@@ -1,3 +1,5 @@
+**Português** · [English](README.en.md)
+
 # Engenharia reversa — "PokeDex (Raro)" / Agenda Pokémon - Poké Fight v1.2
 
 > Relatório da análise estática que deu origem a este repositório. Os caminhos citados

@@ -1,3 +1,5 @@
+**Português** · [English](en/RECOMPILATION.md)
+
 # A recompilação em Lazarus
 
 Objetivo: um executável moderno que **seja o mesmo programa**, com código-fonte
