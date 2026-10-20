@@ -1,0 +1,15 @@
+# saída de compilação (build.ps1 / lazbuild)
+/build/
+/dist/
+src/lib/
+src/*.res
+src/backup/
+*.lps
+*.compiled
+*.o
+*.ppu
+*.a
+
+# Python
+__pycache__/
+*.pyc

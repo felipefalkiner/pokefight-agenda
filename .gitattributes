@@ -1,0 +1,26 @@
+* text=auto
+
+# scripts do Windows precisam de CRLF
+*.cmd  text eol=crlf
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
+*.dfm  text eol=crlf
+
+# fontes Pascal / Lazarus
+*.pas  text eol=lf
+*.lpr  text eol=lf
+*.lfm  text eol=lf
+*.lpi  text eol=lf
+
+# binários do pacote original e da interface
+*.exe  binary
+*.EXE  binary
+*.com  binary
+*.COM  binary
+*.GYM  binary
+*.gym  binary
+*.gif  binary
+*.jpg  binary
+*.png  binary
+*.ico  binary
+*.res  binary
