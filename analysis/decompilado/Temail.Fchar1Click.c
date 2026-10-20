@@ -1,0 +1,9 @@
+// Temail.Fchar1Click @ 004a9c34  body=6 bytes
+
+void Temail_Fchar1Click(int *param_1,undefined4 param_2,int param_3)
+
+{
+  TCustomForm_Close(param_1,param_2,param_3);
+  return;
+}
+

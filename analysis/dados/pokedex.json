@@ -1,0 +1,4318 @@
+{
+ "fonte": "PokéFight1.2.exe — TAPKG.ListBox1Click @0x4b9df4 (validado contra TAPKG.Edit1Change @0x4d9668: 0 diferenças)",
+ "valores_padrao_antes_do_if": {
+  "sprite": "001.gif",
+  "descricao": "",
+  "nome": "",
+  "tipo": "",
+  "versao": "Azul e Vermelha",
+  "evolucao": "Level 16: Ivysaur / Level 32: Venusaur",
+  "localizacao": "Laboratório do Professor Carvalho (Cidade de Pallet)",
+  "movimentos": ""
+ },
+ "entradas": [
+  {
+   "indice_listbox": 0,
+   "numero": "001",
+   "nome": "Bulbasaur",
+   "tipo": "Grama / Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 16: Ivysaur / Level 32: Venusaur",
+   "localizacao": "Laboratório do Professor Carvalho (Cidade de Pallet)",
+   "descricao": "O Bulbasaur é um pokémon forte contra pokémons de rocha e água. Sua evolução final é o Venusaur. É o primeiro dos 150 pokémons.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Growl",
+    "LVL 07 Leech Seed",
+    "LVL 13 Vine Whip",
+    "LVL 20 Poison Powder",
+    "LVL 27 Razor Leaf",
+    "LVL 34 Growth",
+    "LVL 41 Sleep Powder",
+    "LVL 48 Solar Beam"
+   ],
+   "sprite": "001.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 1,
+   "numero": "002",
+   "nome": "Ivysaur",
+   "tipo": "Grama / Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 32: Venusaur",
+   "localizacao": "Evolução",
+   "descricao": "O Ivysaur é a primeira evolução do Bulbasaur. Evolui para Venusaur no level 32. Forte contra pokémons de rocha e água.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Growl",
+    "LVL --- Leech Seed",
+    "LVL --- Vine Whip",
+    "LVL 22 Poison Powder",
+    "LVL 30 Razor Leaf",
+    "LVL 38 Growth",
+    "LVL 46 Sleep Powder",
+    "LVL 54 Solar Beam"
+   ],
+   "sprite": "002.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 2,
+    "defesa": 2,
+    "velocidade": 2,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 2,
+   "numero": "003",
+   "nome": "Venusaur",
+   "tipo": "Grama / Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "não há",
+   "localizacao": "Evolução",
+   "descricao": "Última evolução do Bulbasaur. Bom ataque e defesa fazem dele um bom pokémon.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Growl",
+    "LVL --- Leech Seed",
+    "LVL --- Vine Whip",
+    "LVL --- Poison Powder",
+    "LVL --- Razor Leaf",
+    "LVL 43 Growth",
+    "LVL 55 Sleep Powder",
+    "LVL 65 Solar Beam"
+   ],
+   "sprite": "003.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 3,
+    "defesa": 3,
+    "velocidade": 3,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 3,
+   "numero": "004",
+   "nome": "Charmander",
+   "tipo": "Fogo",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 16: Charmeleon / Level 36: Charizard",
+   "localizacao": "Laboratório do Professor Carvalho (Cidade de Pallet)",
+   "descricao": "O Charmander é um pokémon forte contra os pokémons de gelo e grama. Sua última evolução é o Charizard",
+   "movimentos": [
+    "LVL --- Scratch",
+    "LVL --- Growl",
+    "LVL 09 Ember",
+    "LVL 15 Leer",
+    "LVL 22 Rage",
+    "LVL 30 Slash",
+    "LVL 38 Flamethrower",
+    "LVL 46 Fire spin"
+   ],
+   "sprite": "004.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 2,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 4,
+   "numero": "005",
+   "nome": "Charmeleon",
+   "tipo": "Fogo",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 36: Charizard",
+   "localizacao": "Evolução",
+   "descricao": "Primeira evolução de Charmander. Seu ataque é fraco, porém, ele fica excelente quando evolui.",
+   "movimentos": [
+    "LVL --- Scratch",
+    "LVL --- Growl",
+    "LVL --- Ember",
+    "LVL --- Leer",
+    "LVL 24 Rage",
+    "LVL 33 Slash",
+    "LVL 42 Flamethrower",
+    "LVL 56 Fire spin"
+   ],
+   "sprite": "005.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 1,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 5,
+   "numero": "006",
+   "nome": "Charizard",
+   "tipo": "Fogo / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Última evolução do Charmander. Charizard é considerado um pokémon do fogo voador.",
+   "movimentos": [
+    "LVL --- Scratch",
+    "LVL --- Growl",
+    "LVL --- Ember",
+    "LVL --- Leer",
+    "LVL --- Rage",
+    "LVL 36 Slash",
+    "LVL 46 Flamethrower",
+    "LVL 55 Fire spin"
+   ],
+   "sprite": "006.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 6,
+   "numero": "007",
+   "nome": "Squirtle",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 16: Wartortle / Level 36: Blastoise",
+   "localizacao": "Laboratório do Professor Carvalho (Cidade de Pallet)",
+   "descricao": "Squirtle é forte contra pokémons do fogo e rocha. Sua última evolução é o Blastoise.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Growl",
+    "LVL 08 Bubble",
+    "LVL 15 Water Gun",
+    "LVL 22 Bite",
+    "LVL 28 Withdraw",
+    "LVL 35 Skull Bash",
+    "LVL 42 Hydro Pump"
+   ],
+   "sprite": "007.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 2,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 7,
+   "numero": "008",
+   "nome": "Wartortle",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 36: Blastoise",
+   "localizacao": "Evolução",
+   "descricao": "Primeira evolução do Squirtle. Forte contra pokémons do fogo e da rocha. Sua última evolução é o Blastoise.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Growl",
+    "LVL --- Bubble",
+    "LVL --- Water Gun",
+    "LVL 24 Bite",
+    "LVL 31 Withdraw",
+    "LVL 39 Skull Bash",
+    "LVL 47 Hydro Pump"
+   ],
+   "sprite": "008.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 2,
+    "defesa": 3,
+    "velocidade": 2,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 8,
+   "numero": "009",
+   "nome": "Blastoise",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Blastoise é a última evolução do Squirtle. Novos e poderosos golpes como Skull Bash e Hydro Pump. É o pokémon que aparece na caixa da versão azul.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Growl",
+    "LVL --- Bubble",
+    "LVL --- Water Gun",
+    "LVL --- Bite",
+    "LVL --- Withdraw",
+    "LVL 42 Skull Bash",
+    "LVL 52 Hydro Pump"
+   ],
+   "sprite": "009.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 4,
+    "velocidade": 3,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 9,
+   "numero": "010",
+   "nome": "Caterpie",
+   "tipo": "Inseto",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 7: Metapod / Level 10: Bitterfree",
+   "localizacao": "Floresta Viridian, Rotas 2, 24 e 25",
+   "descricao": "Um pokémon fraco, fácil de pegar e de evoluir e muito comum. Caterpie evolui no level 7 para Metapod e no level 10 para Butterfree.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- String Shot"
+   ],
+   "sprite": "010.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 10,
+   "numero": "011",
+   "nome": "Metapod",
+   "tipo": "Inseto",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 10: Butterfree",
+   "localizacao": "Floresta Viridian, Rotas 2, 24 e 25",
+   "descricao": "Um pokémon muito fraco, só fica disponível por 3 levels, depois ele se transforma no Butterfree.",
+   "movimentos": [
+    "LVL --- Harden"
+   ],
+   "sprite": "011.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 2,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 11,
+   "numero": "012",
+   "nome": "Butterfree",
+   "tipo": "Inseto / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Uma borboleta que deixa os inimigos dormindo e confusos, Butterfree tem a defesa e ataque fraquíssimos. Seu melhor ataque é o Psybeam, conseguido no level 32.",
+   "movimentos": [
+    "LVL 12 Confusion",
+    "LVL 15 Poison Powder",
+    "LVL 16 Stun Spore",
+    "LVL 17 Sleep Powder",
+    "LVL 21 Supersonic",
+    "LVL 26 Whirlwind",
+    "LVL 32 Psybeam"
+   ],
+   "sprite": "012.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 3,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 12,
+   "numero": "013",
+   "nome": "Weedle",
+   "tipo": "Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 7: Kakuna / Level 10: Beedrill",
+   "localizacao": "Floresta Viridian, Rotas 2, 24 e 25",
+   "descricao": "Weedle é outro pokémon fraco, fácil de pegar e evoluir e muito comum. Ele evolui no level 7 para Kakuna e no 10 para Beedrill.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- String Shot"
+   ],
+   "sprite": "013.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 13,
+   "numero": "014",
+   "nome": "Kakuna",
+   "tipo": "Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 10: Beedrill",
+   "localizacao": "Floresta Viridian, Rotas 2, 24 e 25",
+   "descricao": "Fraco, mas, você só terá ele por três levels, depois ele se transforma em Beedrill.",
+   "movimentos": [
+    "LVL --- Harden"
+   ],
+   "sprite": "014.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 14,
+   "numero": "015",
+   "nome": "Beedrill",
+   "tipo": "Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Beedrill é um pokémon agressivo. Seus ataques são rápidos e ageis.",
+   "movimentos": [
+    "LVL 12 Fury Attack",
+    "LVL 16 Focus Energy",
+    "LVL 20 Twineedle",
+    "LVL 25 Rage",
+    "LVL 30 Pin Missile",
+    "LVL 35 Agility"
+   ],
+   "sprite": "015.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 3,
+    "defesa": 1,
+    "velocidade": 3,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 15,
+   "numero": "016",
+   "nome": "Pidgey",
+   "tipo": "Normal / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 18: Pidgeotto / Level 36: Pidgeot",
+   "localizacao": "Rotas 1, 2, 3, 5, 6, 7, 8, 12, 14, 15, 24 e 25",
+   "descricao": "Pidgey é o pokémon mais fácil de achar em todo o jogo. Pode ser achado em muitos lugares.",
+   "movimentos": [
+    "LVL --- Gust",
+    "LVL 05 Sand Attack",
+    "LVL 12 Quick Attack",
+    "LVL 19 Whirlwind",
+    "LVL 28 Wing Attack",
+    "LVL 36 Agility",
+    "LVL 44 Mirror Move"
+   ],
+   "sprite": "016.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 2,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 16,
+   "numero": "017",
+   "nome": "Pidgeotto",
+   "tipo": "Normal / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 36: Pidgeot",
+   "localizacao": "Rotas 14, 15, e 21",
+   "descricao": "Pidgeotto é a primeira evolução do Pidgey. Seus ataques são rápidos.",
+   "movimentos": [
+    "LVL --- Gust",
+    "LVL --- Sand Attack",
+    "LVL --- Quick Attack",
+    "LVL 21 Whirlwind",
+    "LVL 31 Wing Attack",
+    "LVL 40 Agility",
+    "LVL 49 Mirror Move"
+   ],
+   "sprite": "017.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 2,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 17,
+   "numero": "018",
+   "nome": "Pidgeot",
+   "tipo": "Normal / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Pidgeot é a última evolução do Pidgey. Seus ataques são rápidos e fortes. Ele é ágil.",
+   "movimentos": [
+    "LVL --- Gust",
+    "LVL --- Sand Attack",
+    "LVL --- Quick Attack",
+    "LVL --- Whirlwind",
+    "LVL --- Wing Attack",
+    "LVL 44 Agility",
+    "LVL 54 Mirror Move"
+   ],
+   "sprite": "018.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 18,
+   "numero": "019",
+   "nome": "Rattata",
+   "tipo": "Normal",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 20: Raticate",
+   "localizacao": "Rotas 1, 2, 4, 9, 10, 16, 17, 18, 21 e 22",
+   "descricao": "Outro pokémon fácil de achar. Ele tem bons ataques diretos. Ele é achado em vários lugares.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Tail Whip",
+    "LVL 07 Quick Attack",
+    "LVL 14 Hyper Fang",
+    "LVL 23 Focus Energy",
+    "LVL 36 Super Fang"
+   ],
+   "sprite": "019.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 2,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 19,
+   "numero": "020",
+   "nome": "Raticate",
+   "tipo": "Normal",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Rotas 16, 17, 18, e 21",
+   "descricao": "A evolução do Rattata para Raticate é um ótimo passo. Novos ataques poderosos como o Super Fang são muito úteis.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Tail Whip",
+    "LVL --- Quick Attack",
+    "LVL 14 Hyper Fang",
+    "LVL 27 Focus Energy",
+    "LVL 41 Super Fang"
+   ],
+   "sprite": "020.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 3,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 20,
+   "numero": "021",
+   "nome": "Spearow",
+   "tipo": "Normal / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 20: Fearow",
+   "localizacao": "Rotas 3, 4, 9, 10, 11, 16, 17, 18, 22 e 23",
+   "descricao": "Spearow é outro pokémon voador. Mas este pokémon é mais agressivo em comparação ao Pidgey.",
+   "movimentos": [
+    "LVL --- Peck",
+    "LVL --- Growl",
+    "LVL 09 Leer",
+    "LVL 15 Fury Attack",
+    "LVL 22 Mirror Move",
+    "LVL 29 Drill Peck",
+    "LVL 36 Agility"
+   ],
+   "sprite": "021.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 2,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 21,
+   "numero": "022",
+   "nome": "Fearow",
+   "tipo": "Normal / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Rotas 17, 18, e 23",
+   "descricao": "Última evolução do Spearow. Ataques poderosos como Drill Peck. Sua energia é boa mas seu especial é horrível.",
+   "movimentos": [
+    "LVL --- Peck",
+    "LVL --- Growl",
+    "LVL --- Leer",
+    "LVL --- Fury Attack",
+    "LVL 25 Mirror Move",
+    "LVL 34 Drill Peck",
+    "LVL 43 Agility"
+   ],
+   "sprite": "022.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 3,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 22,
+   "numero": "023",
+   "nome": "Ekans",
+   "tipo": "Veneno",
+   "versao": "Vermelha (Somente)",
+   "evolucao": "Level 22: Arbok",
+   "localizacao": "Rotas 4, 8, 9, 10, 11 e 23",
+   "descricao": "Achado somente na versão vermelha do jogo. É um dos pokémons venenosos do jogo. Usa o Leer e o Screech para diminuir a defesa do inimigo. Seus ataques de veneno podem até matar os inimigos ou deixá-los no estado Poisoned.",
+   "movimentos": [
+    "LVL --- Wrap",
+    "LVL --- Leer",
+    "LVL 10 Poison Sting",
+    "LVL 17 Bite",
+    "LVL 24 Glare",
+    "LVL 31 Screech",
+    "LVL 38 Acid"
+   ],
+   "sprite": "023.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 23,
+   "numero": "024",
+   "nome": "Arbok",
+   "tipo": "Veneno",
+   "versao": "Vermelha (Somente)",
+   "evolucao": "Não há",
+   "localizacao": "Rotas 23 e Unknown Dungeon",
+   "descricao": "Arbok é a evolução de Ekans. Só pode ser achado na versão vermelha. Sua velocidade é seu ponto forte.",
+   "movimentos": [
+    "LVL --- Wrap",
+    "LVL --- Leer",
+    "LVL --- Poison Sting",
+    "LVL 17 Bite",
+    "LVL 27 Glare",
+    "LVL 36 Screech",
+    "LVL 47 Acid"
+   ],
+   "sprite": "024.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 2,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 24,
+   "numero": "025",
+   "nome": "Pikachu",
+   "tipo": "Elétrico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Thunder Stone: Raichu",
+   "localizacao": "Floresta Viridian e Power Plant",
+   "descricao": "Pikachu é o pokémon mais popular em existência. É um dos poucos pokémons elétricos do jogo.",
+   "movimentos": [
+    "LVL --- Thundershock",
+    "LVL --- Growl",
+    "LVL 09 Thunderwave",
+    "LVL 16 Quick Attack",
+    "LVL 26 Swift",
+    "LVL 33 Agility",
+    "LVL 43 Thunder"
+   ],
+   "sprite": "025.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 3,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 25,
+   "numero": "026",
+   "nome": "Raichu",
+   "tipo": "Elétrico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Power Plant e Unknown Dungeon",
+   "descricao": "Raichu é um dos mais fortes pokémons do jogo. Porém, Raichu não aprende outros movimentos.",
+   "movimentos": [
+    "LVL --- Thundershock",
+    "LVL --- Growl",
+    "LVL --- Thunderwave",
+    "LVL 16 Quick Attack",
+    "LVL 26 Swift",
+    "LVL 33 Agility",
+    "LVL 43 Thunder"
+   ],
+   "sprite": "026.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 3,
+    "defesa": 1,
+    "velocidade": 3,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 26,
+   "numero": "027",
+   "nome": "Sandshrew",
+   "tipo": "Terra",
+   "versao": "Azul (Somente)",
+   "evolucao": "Level 22: Sandslash",
+   "localizacao": "Rotas 4, 8, 9, 10, 11 e 23",
+   "descricao": "Achado somente na versão azul do game. Um bom pokémon de terra.",
+   "movimentos": [
+    "LVL --- Scratch",
+    "LVL 10 Sand Attack",
+    "LVL 17 Slash",
+    "LVL 24 Poison Sting",
+    "LVL 31 Swift",
+    "LVL 38 Fury Swipes"
+   ],
+   "sprite": "027.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 3,
+    "defesa": 2,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 27,
+   "numero": "028",
+   "nome": "Sandslash",
+   "tipo": "Terra",
+   "versao": "Azul (Somente)",
+   "evolucao": "Não há",
+   "localizacao": "Rotas 23 e Unknown Dungeon",
+   "descricao": "É a evolução do Sandshrew. Só é achado na versão azul.",
+   "movimentos": [
+    "LVL --- Scratch",
+    "LVL 10 Sand Attack",
+    "LVL 17 Slash",
+    "LVL 24 Poison Sting",
+    "LVL 31 Swift",
+    "LVL 38 Fury Swipes"
+   ],
+   "sprite": "028.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 4,
+    "defesa": 4,
+    "velocidade": 2,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 28,
+   "numero": "029",
+   "nome": "Nidoran(F)",
+   "tipo": "Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 16: Nidorina / Moon Stone: Nidoqueen",
+   "localizacao": "Rota 22 e Safari Zone",
+   "descricao": "Este pokémon existe em versão feminina e masculina. A versão feminina é muito lenta em Speed. Porém, ela evolui para Nidorina, um bom pokémon.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Growl",
+    "LVL 08 Scratch",
+    "LVL 14 Poison Sting",
+    "LVL 21 Tail Whip",
+    "LVL 29 Bite",
+    "LVL 36 Fury Swipes",
+    "LVL 43 Double Kick"
+   ],
+   "sprite": "029.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 29,
+   "numero": "030",
+   "nome": "Nidorina",
+   "tipo": "Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Moon Stone: Nidoqueen",
+   "localizacao": "Safari Zone e no Coin Exchange (Cidade de Celadon)",
+   "descricao": "Este pokémon aprende muitos movimentos, incluindo Fury Swipes e o Double Kick.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Growl",
+    "LVL --- Scratch",
+    "LVL 14 Poison Sting",
+    "LVL 23 Tail Whip",
+    "LVL 32 Bite",
+    "LVL 41 Fury Swipes",
+    "LVL 50 Double Kick"
+   ],
+   "sprite": "030.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 30,
+   "numero": "031",
+   "nome": "Nidoqueen",
+   "tipo": "Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Nidoqueen é um grande pokémon que evolui com a Moonstone. Ela só aprende o Poison Sting e o Body Slam. Sua energia é excelente.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Scratch",
+    "LVL --- Tail Whip",
+    "LVL 14 Poison Sting",
+    "LVL 23 Body Slam"
+   ],
+   "sprite": "031.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 3,
+    "defesa": 3,
+    "velocidade": 1,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 31,
+   "numero": "032",
+   "nome": "Nidoran(M)",
+   "tipo": "Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 16: Nidorino / Moon Stone: Nidoking",
+   "localizacao": "Rota 22 e Safari Zone",
+   "descricao": "A versão masculina dos Nidorans aprende muitos movimentos. Seu melhor desempenho é a energia.",
+   "movimentos": [
+    "LVL --- Leer",
+    "LVL --- Tackle",
+    "LVL 08 Horn Attack",
+    "LVL 14 Poison Sting",
+    "LVL 21 Focus Energy",
+    "LVL 29 Fury Attack",
+    "LVL 36 Horn Drill",
+    "LVL 43 Double Kick"
+   ],
+   "sprite": "032.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 32,
+   "numero": "033",
+   "nome": "Nidorino",
+   "tipo": "Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Moon Stone: Nidoking",
+   "localizacao": "Safari Zone e no Coin Exchange (Cidade de Celadon)",
+   "descricao": "Muito maior que o Nidoran(M). Também tem bastante movimentos. Use a Moonstone nele e ele se transformará no poderoso Nidoking.",
+   "movimentos": [
+    "LVL --- Leer",
+    "LVL --- Tackle",
+    "LVL --- Horn Attack",
+    "LVL --- Poison Sting",
+    "LVL 23 Focus Energy",
+    "LVL 32 Fury Attack",
+    "LVL 41 Horn Drill",
+    "LVL 50 Double Kick"
+   ],
+   "sprite": "033.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 2,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 33,
+   "numero": "034",
+   "nome": "Nidoking",
+   "tipo": "Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Melhor pokémon de toda a espécie Nidoran. Sua energia e defesa são ótimos. Ataques, velocidade e special são bons.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Horn Attack",
+    "LVL --- Poison Sting",
+    "LVL 23 Thrash"
+   ],
+   "sprite": "034.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 4,
+    "velocidade": 3,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 34,
+   "numero": "035",
+   "nome": "Clefairy",
+   "tipo": "Normal",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Moon Stone: Clefable",
+   "localizacao": "Montanha da Lua e no Coin Exchange (Cidade de Celadon)",
+   "descricao": "Muito raro. Aprende muitos movimentos e pode evoluir com a Moonstone.",
+   "movimentos": [
+    "LVL --- Pound",
+    "LVL --- Growl",
+    "LVL 18 Doubleslap",
+    "LVL 24 Minimize",
+    "LVL 31 Metronome",
+    "LVL 39 Defense Curl",
+    "LVL 48 Light Screen"
+   ],
+   "sprite": "035.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 35,
+   "numero": "036",
+   "nome": "Clefable",
+   "tipo": "Normal",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Com a Moonstone, Clefairy se transforma no poderoso Clefable. Energia excelente. O resto é bom.",
+   "movimentos": [
+    "LVL --- Sing",
+    "LVL --- Doubleslap",
+    "LVL --- Minimize",
+    "LVL --- Metronome"
+   ],
+   "sprite": "036.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 2,
+    "defesa": 3,
+    "velocidade": 2,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 36,
+   "numero": "037",
+   "nome": "Vulpix",
+   "tipo": "Fogo",
+   "versao": "Azul (Somente)",
+   "evolucao": "Fire Stone: Ninetales",
+   "localizacao": "Rotas 7, 8 e Pokémon House (na Ilha Cinnabar)",
+   "descricao": "Um pokémon-raposa. Seu ataque e defesa são ruins. Sua energia é boa.",
+   "movimentos": [
+    "LVL --- Ember",
+    "LVL --- Tail Whip",
+    "LVL 16 Quick Attack",
+    "LVL 21 Roar",
+    "LVL 28 Confuse Ray",
+    "LVL 35 Flame Thrower",
+    "LVL 42 Fire Spin"
+   ],
+   "sprite": "037.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 2,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 37,
+   "numero": "038",
+   "nome": "Ninetales",
+   "tipo": "Fogo",
+   "versao": "Azul (Somente)",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Usando a Firestone em Vulpix, ele se transformará em Ninetales. Seus atributos são bons.",
+   "movimentos": [
+    "LVL --- Ember",
+    "LVL --- Tail Whip",
+    "LVL --- Quick Attack",
+    "LVL --- Roar"
+   ],
+   "sprite": "038.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 2,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 38,
+   "numero": "039",
+   "nome": "Jigglypuff",
+   "tipo": "Normal",
+   "versao": "Azul (Somente)",
+   "evolucao": "Moon Stone: Wigglytuff",
+   "localizacao": "Rota 3",
+   "descricao": "Jigglypuff é um pokémon fraco. Porém, sua energia é excelente e seus movimentos de música fazem o oponente dormir.",
+   "movimentos": [
+    "LVL --- Sing",
+    "LVL 09 Pound",
+    "LVL 14 Disable",
+    "LVL 19 Defense Curl",
+    "LVL 24 Doubleslap",
+    "LVL 29 Rest",
+    "LVL 34 Body Slam",
+    "LVL 39 Double-Edge"
+   ],
+   "sprite": "039.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 39,
+   "numero": "040",
+   "nome": "Wigglytuff",
+   "tipo": "Normal",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Unknown Dungeon",
+   "descricao": "Use a Moonstone para transformar Jigglypuff em Wigglypuff. Só seu ataque melhora.",
+   "movimentos": [
+    "LVL --- Sing",
+    "LVL --- Disable",
+    "LVL --- Defense Curl",
+    "LVL --- Doubleslap"
+   ],
+   "sprite": "040.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 40,
+   "numero": "041",
+   "nome": "Zubat",
+   "tipo": "Veneno / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 22: Golbat",
+   "localizacao": "Montanha da Morte, Túnel da Pedra, Ilhas Seafrom e Victory Road",
+   "descricao": "Achado na maioria das cavernas. Zubat evolui no level 22 para Golbat. Energia muito boa. Ataque e defesa médios.",
+   "movimentos": [
+    "LVL --- Leech Life",
+    "LVL 10 Supersonic",
+    "LVL 15 Bite",
+    "LVL 21 Confuse Ray",
+    "LVL 28 Wing Attack",
+    "LVL 36 Haze"
+   ],
+   "sprite": "041.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 2,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 41,
+   "numero": "042",
+   "nome": "Golbat",
+   "tipo": "Veneno / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Ilhas Safrom, Victory Road e Unknown Dungeon",
+   "descricao": "Evolução do Zubat. Pokémon com atributos muito bons. Aprende 2 novos movimentos : Wing Attack e Haze.",
+   "movimentos": [
+    "LVL --- Leech Life",
+    "LVL --- Supersonic",
+    "LVL --- Bite",
+    "LVL --- Confuse Ray",
+    "LVL 32 Wing Attack",
+    "LVL 43 Haze"
+   ],
+   "sprite": "042.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 2,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 42,
+   "numero": "043",
+   "nome": "Oddish",
+   "tipo": "Grama / Veneno",
+   "versao": "Vermelha (Somente)",
+   "evolucao": "Level 21: Gloom / Leaf Stone: Vileplume",
+   "localizacao": "Rotas 5, 6, 7, 12, 13, 14, 15, 24 e 25",
+   "descricao": "Achado somente na versão vermelha, em muitos lugares com grama. Muitos movimentos como Solar Beam.",
+   "movimentos": [
+    "LVL --- Absorb",
+    "LVL 15 Poison Powder",
+    "LVL 17 Stun Spore",
+    "LVL 19 Sleep Powder",
+    "LVL 24 Acid",
+    "LVL 33 Petal Dance",
+    "LVL 46 Solar Beam"
+   ],
+   "sprite": "043.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 43,
+   "numero": "044",
+   "nome": "Gloom",
+   "tipo": "Grama / Veneno",
+   "versao": "Vermelha (Somente)",
+   "evolucao": "Leaf Stone: Vileplume",
+   "localizacao": "Rotas 12, 13, 14 e 15",
+   "descricao": "Primeira evolução do Oddish. Achado somente na versão vermelha. Vários movimentos.",
+   "movimentos": [
+    "LVL --- Absorb",
+    "LVL --- Poison Powder",
+    "LVL --- Stun Spore",
+    "LVL --- Sleep Powder",
+    "LVL 28 Acid",
+    "LVL 38 Petal Dance",
+    "LVL 52 Solar Beam"
+   ],
+   "sprite": "044.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 1,
+    "defesa": 2,
+    "velocidade": 1,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 44,
+   "numero": "045",
+   "nome": "Vileplume",
+   "tipo": "Grama / Veneno",
+   "versao": "Vermelha (Somente)",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Evolui com a Leafstone. Não aprende nenhum movimento. Energia excelente, ataque, defesa e especial muito bons.",
+   "movimentos": [
+    "LVL --- Poison Powder",
+    "LVL --- Stun Spore",
+    "LVL --- Sleep Powder"
+   ],
+   "sprite": "045.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 3,
+    "velocidade": 1,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 45,
+   "numero": "046",
+   "nome": "Paras",
+   "tipo": "Inseto / Grama",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 24: Parasect",
+   "localizacao": "Montanha da Lua e Safari Zone",
+   "descricao": "Achado em lugares escuros, como o Mt. Moon ou a Safari Zone, na Fuschia City. Energia média.",
+   "movimentos": [
+    "LVL --- Scratch",
+    "LVL 13 Stun Spore",
+    "LVL 20 Leech Life",
+    "LVL 27 Spore",
+    "LVL 34 Slash",
+    "LVL 41 Growth"
+   ],
+   "sprite": "046.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 46,
+   "numero": "047",
+   "nome": "Parasect",
+   "tipo": "Inseto / Grama",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Safari Zone e Unknown Dungeon",
+   "descricao": "Grande e mais poderoso do que Paras. Sua energia é boa, assim como o ataque.",
+   "movimentos": [
+    "LVL --- Scratch",
+    "LVL --- Stun Spore",
+    "LVL --- Leech Life",
+    "LVL 30 Spore",
+    "LVL 39 Slash",
+    "LVL 48 Growth"
+   ],
+   "sprite": "047.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 3,
+    "defesa": 2,
+    "velocidade": 1,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 47,
+   "numero": "048",
+   "nome": "Venonat",
+   "tipo": "Inseto / Grama",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 31: Venomoth",
+   "localizacao": "Rotas 12, 13, 14, 15 e Safari Zone",
+   "descricao": "Achado na região sudeste do mapa. Tem muitos movimentos como o Psychic.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Disable",
+    "LVL 24 Poison Powder",
+    "LVL 27 Leech Life",
+    "LVL 30 Stun Spore",
+    "LVL 35 Psybeam",
+    "LVL 38 Sleep Powder",
+    "LVL 43 Psychic"
+   ],
+   "sprite": "048.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 48,
+   "numero": "049",
+   "nome": "Venomoth",
+   "tipo": "Inseto / Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Safari Zone, Victory Road e Unknown Dungeon",
+   "descricao": "Energia muito boa, ataque e defesa bons. Ataques baseados na grama, inseto, veneno e normais.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Disable",
+    "LVL --- Poison Powder",
+    "LVL --- Leech Life",
+    "LVL --- Stun Spore",
+    "LVL 38 Psybeam",
+    "LVL 43 Sleep Powder",
+    "LVL 50 Psychic"
+   ],
+   "sprite": "049.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 3,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 49,
+   "numero": "050",
+   "nome": "Diglett",
+   "tipo": "Terra",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 26: Digtrio",
+   "localizacao": "Caverna Diglett",
+   "descricao": "Pokémon-toupeira. Pode se esconder embaixo da terra no combate e atacar os inimigos de surpresa. Não é bom contra pokémons voadores.",
+   "movimentos": [
+    "LVL --- Scratch",
+    "LVL 15 Growl",
+    "LVL 19 Dig",
+    "LVL 24 Sand-Attack",
+    "LVL 31 Slash",
+    "LVL 40 Earthquake"
+   ],
+   "sprite": "050.gif",
+   "barras_status_1a6": {
+    "energia": 1,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 3,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 50,
+   "numero": "051",
+   "nome": "Dugtrio",
+   "tipo": "Terra",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Caverna Diglett",
+   "descricao": "3 pokémons em 1. Energia triplicada e velocidade boa. Última evolução do Digglet.",
+   "movimentos": [
+    "LVL --- Scratch",
+    "LVL --- Growl",
+    "LVL --- Dig",
+    "LVL --- Sand-Attack",
+    "LVL 35 Slash",
+    "LVL 47 Earthquake"
+   ],
+   "sprite": "051.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 4,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 51,
+   "numero": "052",
+   "nome": "Meowth",
+   "tipo": "Normal",
+   "versao": "Azul (Somente)",
+   "evolucao": "Level 28: Persian",
+   "localizacao": "Rotas 5, 6, 7 e 8",
+   "descricao": "Ataques variados, como o Pay Day, onde Meowth rouba dinheiro do treinador do pokémon inimigo.",
+   "movimentos": [
+    "LVL --- Scratch",
+    "LVL --- Growl",
+    "LVL 12 Bite",
+    "LVL 17 Pay Day",
+    "LVL 24 Screech",
+    "LVL 33 Fury Swipes",
+    "LVL 44 Slash"
+   ],
+   "sprite": "052.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 3,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 52,
+   "numero": "053",
+   "nome": "Persian",
+   "tipo": "Normal",
+   "versao": "Azul (Somente)",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Evoluído do Meowth. No level 28 na versão azul. Na vermelha, troque com alguém.",
+   "movimentos": [
+    "LVL --- Scratch",
+    "LVL --- Growl",
+    "LVL --- Bite",
+    "LVL --- Pay Day",
+    "LVL --- Screech",
+    "LVL 37 Fury Swipes",
+    "LVL 51 Slash"
+   ],
+   "sprite": "053.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 2,
+    "defesa": 2,
+    "velocidade": 4,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 53,
+   "numero": "054",
+   "nome": "Psyduck",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 33: Golduck",
+   "localizacao": "Rotas 4, 24 e 25",
+   "descricao": "Tem ataques que confusam o inimigo. Baseados na água, os ataques de Psyduck são razoáveis.",
+   "movimentos": [
+    "LVL --- Scratch",
+    "LVL 28 Tail Whip",
+    "LVL 31 Disable",
+    "LVL 36 Confusion",
+    "LVL 43 Fury Swipes",
+    "LVL 52 Hydro Pump"
+   ],
+   "sprite": "054.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 54,
+   "numero": "055",
+   "nome": "Golduck",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Rotas 4, 24, 25, Cidade de Celadon, Cidade de Fuchsia e Ilhas Seafrom (pescando)",
+   "descricao": "Evoluído do Psyduck no level 33. Seus atributos triplicaram, a não ser, a defesa.",
+   "movimentos": [
+    "LVL --- Scratch",
+    "LVL --- Tail Whip",
+    "LVL --- Disable",
+    "LVL 39 Confusion",
+    "LVL 48 Fury Swipes",
+    "LVL 59 Hydro Pump"
+   ],
+   "sprite": "055.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 3,
+    "defesa": 3,
+    "velocidade": 2,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 55,
+   "numero": "056",
+   "nome": "Mankey",
+   "tipo": "Lutador",
+   "versao": "Vermelha (Somente)",
+   "evolucao": "Level 28: Primeape",
+   "localizacao": "Rotas 5, 6, 7 e 8",
+   "descricao": "Um pokémon lutador muito poderoso. Possui bons ataques como o Seismic Toss. Ele evolui no level 28 para Primeape.",
+   "movimentos": [
+    "LVL --- Scratch",
+    "LVL --- Leer",
+    "LVL 15 Karate Chop",
+    "LVL 21 Fury Attack",
+    "LVL 27 Focus Energy",
+    "LVL 33 Seismic Toss",
+    "LVL 39 Thrash"
+   ],
+   "sprite": "056.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 2,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 56,
+   "numero": "057",
+   "nome": "Primeape",
+   "tipo": "Lutador",
+   "versao": "Vermelha somente",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Evoluído do Mankey. Só pode ser achado na versão vermelha. Na azul você deve trocar com alguém.",
+   "movimentos": [
+    "LVL --- Scratch",
+    "LVL --- Leer",
+    "LVL --- Karate Chop",
+    "LVL --- Fury Attack",
+    "LVL --- Focus Energy",
+    "LVL 37 Seismic Toss",
+    "LVL 46 Thrash"
+   ],
+   "sprite": "057.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 3,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 57,
+   "numero": "058",
+   "nome": "Growlithe",
+   "tipo": "Fogo",
+   "versao": "Vermelha (Somente)",
+   "evolucao": "Fire Stone: Arcanine",
+   "localizacao": "Rotas 7, 8 e na Pokémon House (Ilha Cinnabar)",
+   "descricao": "Muito difícil de pegar. É uma boa escolha para seu time. Energia muito boa.",
+   "movimentos": [
+    "LVL --- Bite",
+    "LVL --- Roar",
+    "LVL 18 Ember",
+    "LVL 23 Leer",
+    "LVL 30 Take Down",
+    "LVL 39 Agility",
+    "LVL 50 Flamethrower"
+   ],
+   "sprite": "058.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 2,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 58,
+   "numero": "059",
+   "nome": "Arcanine",
+   "tipo": "Fogo",
+   "versao": "Vermelha (Somente)",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Evoluído do Growlithe com a Firestone. Não aprende nenhum ataque. Energia excelente, assim como o ataque.",
+   "movimentos": [
+    "LVL --- Bite",
+    "LVL --- Roar",
+    "LVL --- Ember",
+    "LVL --- Leer",
+    "LVL --- Take Down"
+   ],
+   "sprite": "059.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 4,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 59,
+   "numero": "060",
+   "nome": "Poliwag",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 25: Poliwhirl / Water Stone: Poliwrath",
+   "localizacao": "Cidade Viridian e Rota 22 (pescando)",
+   "descricao": "Ataque, defesa e especial muito ruins. Porém, energia e velocidade bons.",
+   "movimentos": [
+    "LVL --- Bubble",
+    "LVL 16 Hypnosis",
+    "LVL 19 Water Gun",
+    "LVL 25 Doubleslap",
+    "LVL 31 Body Slam",
+    "LVL 38 Amnesia",
+    "LVL 45 Hydro Pump"
+   ],
+   "sprite": "060.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 3,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 60,
+   "numero": "061",
+   "nome": "Poliwhirl",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Water Stone: Poliwrath",
+   "localizacao": "Cidade de Celadon e Rota 10 (pescando)",
+   "descricao": "Evolução do Poliwag. Poliwhirl tem ataques de mão não muito poderosos, um dos melhores é o Doubleslap. Energia é muito boa.",
+   "movimentos": [
+    "LVL --- Bubble",
+    "LVL --- Hypnosis",
+    "LVL --- Water Gun",
+    "LVL 26 Doubleslap",
+    "LVL 33 Body Slam",
+    "LVL 41 Amnesia",
+    "LVL 49 Hydro Pump"
+   ],
+   "sprite": "061.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 2,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 61,
+   "numero": "062",
+   "nome": "Poliwrath",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Última evolução do Poliwag. Um pokémon poderoso com vários movimentos.",
+   "movimentos": [
+    "LVL --- Bubble",
+    "LVL --- Hypnosis",
+    "LVL --- Water Gun"
+   ],
+   "sprite": "062.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 3,
+    "velocidade": 2,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 62,
+   "numero": "063",
+   "nome": "Abra",
+   "tipo": "Psíquico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 16: Kadabra / Trocado: Alakazam",
+   "localizacao": "Rotas 24, 25 e Coin Exchange (Cidade de Celadon)",
+   "descricao": "Extremamente difícil de pegar. Seu único movimento Teleport pode até colocar o inimigo para dormir.",
+   "movimentos": [
+    "LVL --- Teleport"
+   ],
+   "sprite": "063.gif",
+   "barras_status_1a6": {
+    "energia": 1,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 3,
+    "especial": 4
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 63,
+   "numero": "064",
+   "nome": "Kadabra",
+   "tipo": "Psíquico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Trocado: Alakazam",
+   "localizacao": "Unknown Dungeon",
+   "descricao": "Abra se tranforma em Kadabra no level 16. Seus movimentos são muitos e uns dos melhores são o Psybeam e o Psychic.",
+   "movimentos": [
+    "LVL --- Teleport",
+    "LVL --- Confusion",
+    "LVL 20 Disable",
+    "LVL 27 Psybeam",
+    "LVL 31 Recover",
+    "LVL 38 Psychic",
+    "LVL 42 Reflect"
+   ],
+   "sprite": "064.gif",
+   "barras_status_1a6": {
+    "energia": 2,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 4,
+    "especial": 4
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 64,
+   "numero": "065",
+   "nome": "Alakazam",
+   "tipo": "Psíquico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "É conseguido quando o Kadabra é trocado por um Alakazam. Esta evolução aumenta em muito a energia e os ataques.",
+   "movimentos": [
+    "LVL --- Teleport",
+    "LVL --- Confusion",
+    "LVL 20 Disable",
+    "LVL 27 Psybeam",
+    "LVL 31 Recover",
+    "LVL 38 Psychic",
+    "LVL 42 Reflect"
+   ],
+   "sprite": "065.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 4,
+    "especial": 5
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 65,
+   "numero": "066",
+   "nome": "Machop",
+   "tipo": "Lutador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 28: Machoke / Trocado: Machamp",
+   "localizacao": "Túnel de Pedra e Victory Road",
+   "descricao": "Um dos poucos pokémons-lutadores. Seu ataque faz qualquer inimigo morrer rápidamente.",
+   "movimentos": [
+    "LVL --- Karate Chop",
+    "LVL 20 Low Kick",
+    "LVL 25 Leer",
+    "LVL 32 Focus Energy",
+    "LVL 39 Seismic Toss",
+    "LVL 46 Submission"
+   ],
+   "sprite": "066.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 3,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 66,
+   "numero": "067",
+   "nome": "Machoke",
+   "tipo": "Lutador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Trocado: Machamp",
+   "localizacao": "Túnel de Pedra e Victory Road",
+   "descricao": "Primeira evolução do Machop. Machoke é ágil e muito poderoso.",
+   "movimentos": [
+    "LVL --- Karate Chop",
+    "LVL --- Low Kick",
+    "LVL --- Leer",
+    "LVL 36 Focus Energy",
+    "LVL 44 Seismic Toss",
+    "LVL 52 Submission"
+   ],
+   "sprite": "067.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 2,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 67,
+   "numero": "068",
+   "nome": "Machamp",
+   "tipo": "Lutador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Conseguido quando o Machoke é trocado por um destes.",
+   "movimentos": [
+    "LVL --- Karate Chop",
+    "LVL --- Low Kick",
+    "LVL --- Leer",
+    "LVL 36 Focus Energy",
+    "LVL 44 Seismic Toss",
+    "LVL 52 Submission"
+   ],
+   "sprite": "068.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 4,
+    "defesa": 3,
+    "velocidade": 1,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 68,
+   "numero": "069",
+   "nome": "Bellsprout",
+   "tipo": "Grama / Veneno",
+   "versao": "Azul (Somente)",
+   "evolucao": "Level 21: Weepinbell / Leaf Stone: Victreebel",
+   "localizacao": "Rotas 5, 6, 7, 12, 13, 14, 15, 24 e 25",
+   "descricao": "Achado somente na versão azul. Este é mais um exemplo dos pokémons de vários tipos combinando grama e veneno.",
+   "movimentos": [
+    "LVL --- Vine Whip",
+    "LVL --- Growth",
+    "LVL 13 Wrap",
+    "LVL 15 Poison Powder",
+    "LVL 18 Sleep Powder",
+    "LVL 21 Stun Spore",
+    "LVL 26 Acid",
+    "LVL 33 Razor Leaf",
+    "LVL 42 Slam"
+   ],
+   "sprite": "069.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 69,
+   "numero": "070",
+   "nome": "Weepinbell",
+   "tipo": "Grama / Veneno",
+   "versao": "Azul (Somente)",
+   "evolucao": "Leaf Stone: Victreebel",
+   "localizacao": "Rotas 12, 13, 14 e 15",
+   "descricao": "Achado na parte sudeste do mapa do game. Primeira evolução do Bellsprout. Só evolui com a Leafstone para Victreebell.",
+   "movimentos": [
+    "LVL --- Vine Whip",
+    "LVL --- Growth",
+    "LVL --- Wrap",
+    "LVL --- Poison Powder",
+    "LVL --- Sleep Powder",
+    "LVL 23 Stun Spore",
+    "LVL 29 Acid",
+    "LVL 38 Razor Leaf",
+    "LVL 49 Slam"
+   ],
+   "sprite": "070.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 3,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 70,
+   "numero": "071",
+   "nome": "Victreebel",
+   "tipo": "Grama / Veneno",
+   "versao": "Azul (Somente)",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Última evolução do Bellstrout. Seus atributos são iguais aos do Weepinbell. Consiga um destes para se tornar um mestre Pokémon.",
+   "movimentos": [
+    "LVL --- Wrap",
+    "LVL --- Poison Powder",
+    "LVL --- Sleep Powder"
+   ],
+   "sprite": "071.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 3,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 71,
+   "numero": "072",
+   "nome": "Tentacool",
+   "tipo": "Água / Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 30: Tentacruel",
+   "localizacao": "Rotas 12, 13, 17, 18, 19, 20, 21, Cidade de Pallet e Cidade Viridian",
+   "descricao": "Muito comum nos lagos de Pallet Town e Cinnabar Islands, até mesmo nos riachos de Fuschia City.",
+   "movimentos": [
+    "LVL --- Acid",
+    "LVL 07 Supersonic",
+    "LVL 13 Wrap",
+    "LVL 18 Poison Sting",
+    "LVL 22 Water Gun",
+    "LVL 27 Constrict",
+    "LVL 33 Barrier",
+    "LVL 40 Screech",
+    "LVL 48 Hydro Pump"
+   ],
+   "sprite": "072.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 2,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 72,
+   "numero": "073",
+   "nome": "Tentacruel",
+   "tipo": "Água / Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Quando Tentacool chega ao level 30, ele se tranforma no poderoso Tentacruel. Sua energia foi dobrada.",
+   "movimentos": [
+    "LVL --- Acid",
+    "LVL --- Supersonic",
+    "LVL --- Wrap",
+    "LVL --- Poison Sting",
+    "LVL --- Water Gun",
+    "LVL --- Constrict",
+    "LVL 35 Barrier",
+    "LVL 43 Screech",
+    "LVL 50 Hydro Pump"
+   ],
+   "sprite": "073.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 1,
+    "velocidade": 3,
+    "especial": 4
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 73,
+   "numero": "074",
+   "nome": "Geodude",
+   "tipo": "Pedra / Terra",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 25: Graveler / Trocado: Golem",
+   "localizacao": "Montanha da Lua, Túnel de Pedra e Victory Road",
+   "descricao": "Muito comum nas cavernas como Mt. Moon, Rock Cave e Victory Road. Seu elemento é a rocha.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL 07 Defense Curl",
+    "LVL 13 Rock Throw",
+    "LVL 18 Self Destruct",
+    "LVL 22 Harden",
+    "LVL 27 Earthquake",
+    "LVL 33 Explosion"
+   ],
+   "sprite": "074.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 2,
+    "defesa": 2,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 74,
+   "numero": "075",
+   "nome": "Graveler",
+   "tipo": "Pedra / Terra",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Trocado: Golem",
+   "localizacao": "Victory Road",
+   "descricao": "Graveler é bem mais \"duro\" do que Geodude, mas, Graveler é mais lento.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Defense Curl",
+    "LVL --- Rock Throw",
+    "LVL --- Self Destruct",
+    "LVL 29 Harden",
+    "LVL 36 Earthquake",
+    "LVL 43 Explosion"
+   ],
+   "sprite": "075.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 3,
+    "defesa": 4,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 75,
+   "numero": "076",
+   "nome": "Golem",
+   "tipo": "Pedra / Terra",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Quando Graveler é trocado você consegue um Golem. É muito difícil de pegá-lo por seu enorme tamanho.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Defense Curl",
+    "LVL --- Rock Throw",
+    "LVL --- Self Destruct",
+    "LVL 29 Harden",
+    "LVL 36 Earthquake",
+    "LVL 43 Explosion"
+   ],
+   "sprite": "076.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 4,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 76,
+   "numero": "077",
+   "nome": "Ponyta",
+   "tipo": "Fogo",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 40: Rapidash",
+   "localizacao": "Pokémon House (Ilha Cinnabar)",
+   "descricao": "Achado somente na Cinnabar Islands Mansion. Muito efetivo contra pokémons de gelo, grama e pokémons-insetos. Evolui no level 40 para Rapidash.",
+   "movimentos": [
+    "LVL --- Ember",
+    "LVL 30 Tail Whip",
+    "LVL 32 Stomp",
+    "LVL 35 Growl",
+    "LVL 39 Fire Spin",
+    "LVL 43 Take Down",
+    "LVL 48 Agility"
+   ],
+   "sprite": "077.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 3,
+    "defesa": 1,
+    "velocidade": 3,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 77,
+   "numero": "078",
+   "nome": "Rapidash",
+   "tipo": "Fogo",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Uma ótima escolha de pokémons do fogo para colecionadores de pokémon.",
+   "movimentos": [
+    "LVL --- Ember",
+    "LVL --- Tail Whip",
+    "LVL --- Stomp",
+    "LVL --- Growl",
+    "LVL --- Fire Spin",
+    "LVL 47 Take Down",
+    "LVL 55 Agility"
+   ],
+   "sprite": "078.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 3,
+    "defesa": 2,
+    "velocidade": 4,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 78,
+   "numero": "079",
+   "nome": "Slowpoke",
+   "tipo": "Água / Psíquico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 37: Slowbro",
+   "localizacao": "Cidade de Celadon, Safari Zone, Ilhas Seafrom, Rota 10 (pescando)",
+   "descricao": "Um pokémon muito maluco. Ele é muito lento. Demora 5 segundos para seu cérebro trabalhar.",
+   "movimentos": [
+    "LVL --- Confusion",
+    "LVL 30 Disable",
+    "LVL 32 Headbutt",
+    "LVL 35 Growl",
+    "LVL 39 Water Gun",
+    "LVL 43 Amnesia",
+    "LVL 48 Psychic"
+   ],
+   "sprite": "079.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 2,
+    "defesa": 2,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 79,
+   "numero": "080",
+   "nome": "Slowbro",
+   "tipo": "Água / Psíquico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Ilhas Seafrom, Rota 23 (pescando) e Unknown Dungeon",
+   "descricao": "Mais maluco do que Slowpoke. Ele continua lento.",
+   "movimentos": [
+    "LVL --- Confusion",
+    "LVL --- Disable",
+    "LVL --- Headbutt",
+    "LVL --- Growl",
+    "LVL --- Water Gun",
+    "LVL 44 Amnesia",
+    "LVL 55 Psychic"
+   ],
+   "sprite": "080.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 3,
+    "velocidade": 1,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 80,
+   "numero": "081",
+   "nome": "Magnemite",
+   "tipo": "Elétrico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 30: Magneton",
+   "localizacao": "Power Plant",
+   "descricao": "Achado somente na Powerplant e na Unknown Dungeon. Seu ataque é fraco.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL 21 Sonic Boom",
+    "LVL 25 Thundershock",
+    "LVL 29 Super Sonic",
+    "LVL 35 Thunder Wave",
+    "LVL 41 Swift",
+    "LVL 47 Screech"
+   ],
+   "sprite": "081.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 2,
+    "velocidade": 1,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 81,
+   "numero": "082",
+   "nome": "Magneton",
+   "tipo": "Elétrico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Power Plant e Unknown Dungeon",
+   "descricao": "Outro do tipo \"3 em 1\". Seu ataque continua fraco. Sua energia, defesa, velocidade e especial aumentaram.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Sonic Boom",
+    "LVL --- Thundershock",
+    "LVL --- Super Sonic",
+    "LVL 38 Thunder Wave",
+    "LVL 46 Swift",
+    "LVL 54 Screech"
+   ],
+   "sprite": "082.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 1,
+    "defesa": 3,
+    "velocidade": 2,
+    "especial": 4
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 82,
+   "numero": "083",
+   "nome": "Farfetch´d",
+   "tipo": "Normal / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Cidade de Vermilion",
+   "descricao": "Um pokémon-pássaro muito raro. Também pode ser achado trocando um Spearow em Viridian City.",
+   "movimentos": [
+    "LVL --- Peck",
+    "LVL -- Sand-Attack",
+    "LVL 07 Leer",
+    "LVL 15 Fury Attack",
+    "LVL 23 Swords Dance",
+    "LVL 31 Agility",
+    "LVL 39 Slash"
+   ],
+   "sprite": "083.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 2,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 83,
+   "numero": "084",
+   "nome": "Duduo",
+   "tipo": "Normal / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 31: Dodrio",
+   "localizacao": "Rotas 16, 17, 18 e Safari Zone",
+   "descricao": "Um pokémon voador. Pode ser achado na Safari Zone.",
+   "movimentos": [
+    "LVL --- Peck",
+    "LVL 20 Growl",
+    "LVL 24 Fury Attack",
+    "LVL 30 Drill Peck",
+    "LVL 36 Rage",
+    "LVL 40 Tri Attack",
+    "LVL 44 Agility"
+   ],
+   "sprite": "084.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 3,
+    "defesa": 1,
+    "velocidade": 2,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 84,
+   "numero": "085",
+   "nome": "Dodrio",
+   "tipo": "Normal / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Unknown Dungeon",
+   "descricao": "No level 31, Doduo evolui para Dodrio. Este é outro pokémon do tipo \"3 em 1\", mas, no caso são três cabeças.",
+   "movimentos": [
+    "LVL --- Peck",
+    "LVL --- Growl",
+    "LVL --- Fury Attack",
+    "LVL --- Drill Peck",
+    "LVL 39 Rage",
+    "LVL 45 Tri Attack",
+    "LVL 51 Agility"
+   ],
+   "sprite": "085.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 4,
+    "defesa": 3,
+    "velocidade": 3,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 85,
+   "numero": "086",
+   "nome": "Seel",
+   "tipo": "Água / Gelo",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 34: Dewgong",
+   "localizacao": "Ilhas Seafrom",
+   "descricao": "Achado em poucos lugares como Cinnabar Islands e Seafoam Islands. É um pokémon da água. Mas seus ataques são baseados no gelo.",
+   "movimentos": [
+    "LVL --- Headbutt",
+    "LVL 30 Growl",
+    "LVL 35 Aurora Beam",
+    "LVL 40 Rest",
+    "LVL 45 Take Down",
+    "LVL 50 Ice Beam"
+   ],
+   "sprite": "086.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 86,
+   "numero": "087",
+   "nome": "Dewgong",
+   "tipo": "Água / Gelo",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Nào há",
+   "localizacao": "Ilhas Seafrom",
+   "descricao": "Atributos do Seel duplicaram. Um pokémon da água muito poderoso.",
+   "movimentos": [
+    "LVL --- Headbutt",
+    "LVL --- Growl",
+    "LVL 35 Aurora Beam",
+    "LVL 44 Rest",
+    "LVL 50 Take Down",
+    "LVL 56 Ice Beam"
+   ],
+   "sprite": "087.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 4,
+    "velocidade": 2,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 87,
+   "numero": "088",
+   "nome": "Grimer",
+   "tipo": "Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 38: Muk",
+   "localizacao": "Pokémon House (Ilhas Cinnabar)",
+   "descricao": "Seus atributos são horríveis, porém, sua energia é ótima. É um dos poucos pokémons do veneno.",
+   "movimentos": [
+    "LVL --- Pound",
+    "LVL --- Disable",
+    "LVL 30 Poison Gas",
+    "LVL 33 Minimize",
+    "LVL 37 Sludge",
+    "LVL 42 Harden",
+    "LVL 48 Screech",
+    "LVL 55 Acid Armor"
+   ],
+   "sprite": "088.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 88,
+   "numero": "089",
+   "nome": "Muk",
+   "tipo": "Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Pokémon House (Ilhas Cinnabar)",
+   "descricao": "Quando Grimer chega no level 38, ele evolui para Muk. Ataques bons como o Acid Armor.",
+   "movimentos": [
+    "LVL --- Pound",
+    "LVL --- Disable",
+    "LVL --- Poison Gas",
+    "LVL --- Minimize",
+    "LVL --- Sludge",
+    "LVL 45 Harden",
+    "LVL 53 Screech",
+    "LVL 60 Acid Armor"
+   ],
+   "sprite": "089.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 4,
+    "defesa": 2,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 89,
+   "numero": "090",
+   "nome": "Shellder",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Water stone: Cloyster",
+   "localizacao": "Rotas 6, 11, Cidade de Vermilion, Cidade Cerulean e Ilhas Seafrom",
+   "descricao": "Comum em muitas partes do jogo. Seus atributos são fracos.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Withdraw",
+    "LVL 18 Supersonic",
+    "LVL 23 Clamp",
+    "LVL 30 Aurora Beam",
+    "LVL 39 Leer",
+    "LVL 50 Ice Beam"
+   ],
+   "sprite": "090.gif",
+   "barras_status_1a6": {
+    "energia": 2,
+    "ataque": 1,
+    "defesa": 3,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 90,
+   "numero": "091",
+   "nome": "Cloyster",
+   "tipo": "Água / Gelo",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Pokémon forte, muito difícil de derrotar. Sua defesa é excelente.",
+   "movimentos": [
+    "LVL --- Withdraw",
+    "LVL --- Supersonic",
+    "LVL --- Clamp",
+    "LVL --- Aurora Beam",
+    "LVL 50 Spike Cannon"
+   ],
+   "sprite": "091.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 3,
+    "defesa": 5,
+    "velocidade": 2,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 91,
+   "numero": "092",
+   "nome": "Gastly",
+   "tipo": "Fantasma",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 25: Haunter / Trocado: Gengar",
+   "localizacao": "Pokémon Tower (Cidade de Lavender)",
+   "descricao": "Um dos poucos pokémons-fantasmas. Seus ataques normais e de luta são fracos.",
+   "movimentos": [
+    "LVL --- Lick",
+    "LVL --- Confuse Ray",
+    "LVL --- Night Shade",
+    "LVL 27 Hypnosis",
+    "LVL 35 Dream Eater"
+   ],
+   "sprite": "092.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 2,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 92,
+   "numero": "093",
+   "nome": "Haunter",
+   "tipo": "Fantasma",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Trocado: Gengar",
+   "localizacao": "Pokémon Tower (Cidade de Lavender)",
+   "descricao": "Outro do tipo fastasma. Ele aprende o Dream Eater que põe o inimigo para dormir.",
+   "movimentos": [
+    "LVL --- Lick",
+    "LVL --- Confuse Ray",
+    "LVL --- Night Shade",
+    "LVL 29 Hypnosis",
+    "LVL 38 Dream Eater"
+   ],
+   "sprite": "093.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 3,
+    "especial": 4
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 93,
+   "numero": "094",
+   "nome": "Gengar",
+   "tipo": "Fantasma",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Você só consegue este trocando com o uso do Cabo Link com alguém. Outro pokémon do tipo fantasma.",
+   "movimentos": [
+    "LVL --- Lick",
+    "LVL --- Confuse Ray",
+    "LVL --- Night Shade",
+    "LVL 29 Hypnosis",
+    "LVL 38 Dream Eater"
+   ],
+   "sprite": "094.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 2,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 4
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 94,
+   "numero": "095",
+   "nome": "Onix",
+   "tipo": "Pedra / Terra",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Túnel de Pedra e Victory Road",
+   "descricao": "Um pokém muito alto e forte. Sua defesa é excelente. Vulnerável contra pokémons da água e grama.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Screech",
+    "LVL 15 Bind",
+    "LVL 19 Rock Throw",
+    "LVL 25 Rage",
+    "LVL 33 Slam",
+    "LVL 43 Harden"
+   ],
+   "sprite": "095.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 5,
+    "velocidade": 3,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 95,
+   "numero": "096",
+   "nome": "Drowzee",
+   "tipo": "Psíquico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 26: Hypno",
+   "localizacao": "Rota 11",
+   "descricao": "Um pokémon fraco. Porém, seus movimentos psíquicos são bons.",
+   "movimentos": [
+    "LVL --- Pound",
+    "LVL --- Hypnosis",
+    "LVL 12 Disable",
+    "LVL 17 Confusion",
+    "LVL 24 Headbutt",
+    "LVL 29 Poison Gas",
+    "LVL 32 Psychic",
+    "LVL 37 Meditate"
+   ],
+   "sprite": "096.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 96,
+   "numero": "097",
+   "nome": "Hypno",
+   "tipo": "Psíquico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Unknown Dungeon",
+   "descricao": "Seus movimentos psíquicos fazem o inimigo dormir. Enquanto isso, ele os ataca.",
+   "movimentos": [
+    "LVL --- Pound",
+    "LVL --- Hypnosis",
+    "LVL --- Disable",
+    "LVL --- Confusion",
+    "LVL --- Headbutt",
+    "LVL 33 Poison Gas",
+    "LVL 37 Psychic",
+    "LVL 43 Meditate"
+   ],
+   "sprite": "097.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 2,
+    "defesa": 2,
+    "velocidade": 2,
+    "especial": 4
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 97,
+   "numero": "098",
+   "nome": "Krabby",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 28: Kingler",
+   "localizacao": "Rotas 4, 6, 11, 12, 13, 17, 18, 24, 25 e Cidade Fuchsia",
+   "descricao": "É achado em muitos lugares do game. Use a Super Rod para pescá-lo e pegá-lo.",
+   "movimentos": [
+    "LVL --- Bubble",
+    "LVL --- Leer",
+    "LVL 20 Vice Grip",
+    "LVL 25 Guillotine",
+    "LVL 30 Stomp",
+    "LVL 35 Crab Hammer",
+    "LVL 40 Harden"
+   ],
+   "sprite": "098.gif",
+   "barras_status_1a6": {
+    "energia": 2,
+    "ataque": 3,
+    "defesa": 3,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 98,
+   "numero": "099",
+   "nome": "Kingler",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Rota 23, Unknown Dungeon, Ilhas Seafrom (pescando)",
+   "descricao": "É muito maior e mais poderoso do que Krabby. Pegue ele em outros lugares ou evolua-o do Krabby.",
+   "movimentos": [
+    "LVL --- Bubble",
+    "LVL --- Leer",
+    "LVL --- Vice Grip",
+    "LVL --- Guillotine",
+    "LVL 34 Stomp",
+    "LVL 42 Crab Hammer",
+    "LVL 49 Harden"
+   ],
+   "sprite": "099.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 4,
+    "defesa": 3,
+    "velocidade": 2,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 99,
+   "numero": "100",
+   "nome": "Voltorb",
+   "tipo": "Elétrico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 30: Electrode",
+   "localizacao": "Rota 10 e Power Plant",
+   "descricao": "O pokémon nº 100. Ele tem movimentos bons como o Screech e o Explosion.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Screech",
+    "LVL 22 Self Destruct",
+    "LVL 29 Light Screen",
+    "LVL 36 Swift",
+    "LVL 43 Explosion"
+   ],
+   "sprite": "100.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 3,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 100,
+   "numero": "101",
+   "nome": "Electrode",
+   "tipo": "Elétrico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Caverna de Cerulean",
+   "descricao": "Evolução do Voltorb. Ele pode atacar muitas vezes antes de um inimigo tocar nele.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Screech",
+    "LVL --- Self Destruct",
+    "LVL --- Light Screen",
+    "LVL 40 Swift",
+    "LVL 50 Explosion"
+   ],
+   "sprite": "101.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 1,
+    "defesa": 2,
+    "velocidade": 5,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 101,
+   "numero": "102",
+   "nome": "Exeggcute",
+   "tipo": "Grama / Psíquico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Leaf Stone: Exegguntor",
+   "localizacao": "Safari Zone",
+   "descricao": "Pode ser achado somente na Safari Zone. Quando você pega um, pode evoluí-lo com a Leafstone.",
+   "movimentos": [
+    "LVL --- Barrage",
+    "LVL --- Hypnosis",
+    "LVL 25 Reflect",
+    "LVL 28 Leech Seed",
+    "LVL 32 Stun Spore",
+    "LVL 37 Poison Powder",
+    "LVL 42 Solar Beam",
+    "LVL 48 Sleep Powder"
+   ],
+   "sprite": "102.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 1,
+    "defesa": 3,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 102,
+   "numero": "103",
+   "nome": "Exeggcutor",
+   "tipo": "Grama / Psíquico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Evolução do Exeggcute. Ele é extremamente poderoso.",
+   "movimentos": [
+    "LVL --- Barrage",
+    "LVL --- Hypnosis",
+    "LVL 25 Reflect",
+    "LVL 28 Leech Seed"
+   ],
+   "sprite": "103.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 3,
+    "velocidade": 2,
+    "especial": 4
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 103,
+   "numero": "104",
+   "nome": "Cubone",
+   "tipo": "Terra",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 28: Marowak",
+   "localizacao": "Pokémon Tower (Cidade de Lavender)",
+   "descricao": "Muito efetivo contra pokémons normais. Não se sai bem contra pokémons voadores.",
+   "movimentos": [
+    "LVL --- Bone Club",
+    "LVL --- Growl",
+    "LVL 25 Leer",
+    "LVL 31 Focus Energy",
+    "LVL 38 Thrash",
+    "LVL 43 Bonemerang",
+    "LVL 46 Rage"
+   ],
+   "sprite": "104.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 3,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 104,
+   "numero": "105",
+   "nome": "Marowak",
+   "tipo": "Terra",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Victory Road e Unknown Dungeon",
+   "descricao": "Evolução do Cubone. Ele pode, literalmente, esmagar um oponente.",
+   "movimentos": [
+    "LVL --- Bone Club",
+    "LVL --- Growl",
+    "LVL --- Leer",
+    "LVL 33 Focus Energy",
+    "LVL 41 Thrash",
+    "LVL 48 Bonemerang",
+    "LVL 55 Rage"
+   ],
+   "sprite": "105.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 2,
+    "defesa": 5,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 105,
+   "numero": "106",
+   "nome": "Hitmonlee",
+   "tipo": "Lutador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Cidade de Saffron",
+   "descricao": "Um dos poucos pokémons lutadores. Ele é um pokémon-chutador.",
+   "movimentos": [
+    "LVL --- Double Kick",
+    "LVL --- Meditate",
+    "LVL 33 Rolling Kick",
+    "LVL 38 Jump Kick",
+    "LVL 43 Focus Energy",
+    "LVL 48 Hi Jump Kick",
+    "LVL 53 Mega Kick"
+   ],
+   "sprite": "106.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 4,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 106,
+   "numero": "107",
+   "nome": "Hitmonchan",
+   "tipo": "Lutador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Cidade de Saffron",
+   "descricao": "Outro pokémon lutador. Só que esse soqueia os adversários.",
+   "movimentos": [
+    "LVL --- Comet Punch",
+    "LVL --- Agility",
+    "LVL 33 Fire Punch",
+    "LVL 38 Ice Punch",
+    "LVL 43 Thunder Punch",
+    "LVL 48 Mega Punch",
+    "LVL 53 Counter"
+   ],
+   "sprite": "107.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 4,
+    "defesa": 3,
+    "velocidade": 2,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 107,
+   "numero": "108",
+   "nome": "Lickitung",
+   "tipo": "Normal",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Rota 18",
+   "descricao": "Achado trocando pelo Slowbro na Route 18. Não muito poderoso. Não é uma boa escolha para o seu time de 6.",
+   "movimentos": [
+    "LVL --- Wrap",
+    "LVL --- Supersonic",
+    "LVL 07 Stomp",
+    "LVL 15 Disable",
+    "LVL 23 Defense Curl",
+    "LVL 31 Slam",
+    "LVL 39 Screech"
+   ],
+   "sprite": "108.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 1,
+    "defesa": 2,
+    "velocidade": 1,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 108,
+   "numero": "109",
+   "nome": "Koffing",
+   "tipo": "Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 35: Weezing",
+   "localizacao": "Pokémon House (Ilhas Cinnabar)",
+   "descricao": "Koffing é um pokémon gasoso. Achado somente na Cinnabar Islands Mansion.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Smog",
+    "LVL 32 Sludge",
+    "LVL 37 Smoke Screen",
+    "LVL 40 Self Destruct",
+    "LVL 45 Haze",
+    "LVL 48 Explosion"
+   ],
+   "sprite": "109.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 3,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 109,
+   "numero": "110",
+   "nome": "Weezing",
+   "tipo": "Veneno",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Pokémon House (Ilhas Cinnabar)",
+   "descricao": "Evolução do Koffing. Outro do tipo \"3 em 1\". Ele so pode ser achado na Cinnabar Islands Mansion.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Smog",
+    "LVL --- Sludge",
+    "LVL 39 Smoke Screen",
+    "LVL 43 Self Destruct",
+    "LVL 49 Haze",
+    "LVL 53 Explosion"
+   ],
+   "sprite": "110.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 3,
+    "defesa": 4,
+    "velocidade": 2,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 110,
+   "numero": "111",
+   "nome": "Rhyhorn",
+   "tipo": "Terra / Pedra",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 42: Rhydon",
+   "localizacao": "Safari Zone",
+   "descricao": "Achado somente na Safari Zone. Energia e defesa bons.",
+   "movimentos": [
+    "LVL --- Horn Attack",
+    "LVL 30 Stomp",
+    "LVL 35 Tail Whip",
+    "LVL 40 Fury Attack",
+    "LVL 45 Horn Drill",
+    "LVL 50 Leer",
+    "LVL 55 Take Down"
+   ],
+   "sprite": "111.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 3,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 111,
+   "numero": "112",
+   "nome": "Rhydon",
+   "tipo": "Terra / Pedra",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Unknown Dungeon",
+   "descricao": "Evolução do Rhyhorn. Tem vários movimentos como Leer e o Take Down.",
+   "movimentos": [
+    "LVL --- Horn Attack",
+    "LVL --- Stomp",
+    "LVL --- Tail Whip",
+    "LVL --- Fury Attack",
+    "LVL 48 Horn Drill",
+    "LVL 55 Leer",
+    "LVL 64 Take Down"
+   ],
+   "sprite": "112.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 4,
+    "defesa": 3,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 112,
+   "numero": "113",
+   "nome": "Chansey",
+   "tipo": "Normal",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Safari Zone e Unknown Dungeon",
+   "descricao": "Um pokémon muito fraco. Um pokémon horrível >:o/",
+   "movimentos": [
+    "LVL --- Pound",
+    "LVL --- Doubleslap",
+    "LVL 24 Sing",
+    "LVL 30 Growl",
+    "LVL 38 Minimize",
+    "LVL 44 Defense Curl",
+    "LVL 48 Light Screen",
+    "LVL 54 Double Edge"
+   ],
+   "sprite": "113.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 4
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 113,
+   "numero": "114",
+   "nome": "Tangela",
+   "tipo": "Grama",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Rota 21",
+   "descricao": "Muitas pessoas dizem que sua pele parace espaguete. Ele não é forte, mas, sua defesa é excelente.",
+   "movimentos": [
+    "LVL --- Constrict",
+    "LVL --- Bind",
+    "LVL 29 Absorb",
+    "LVL 32 Poison Powder",
+    "LVL 36 Stun Spore",
+    "LVL 39 Sleep Powder",
+    "LVL 45 Slam",
+    "LVL 49 Growth"
+   ],
+   "sprite": "114.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 1,
+    "defesa": 4,
+    "velocidade": 1,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 114,
+   "numero": "115",
+   "nome": "Kangaskhan",
+   "tipo": "Normal",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Safari Zone",
+   "descricao": "Um favorito para muitos. Achado somente na Safari Zone, difícil de achar e de pegar.",
+   "movimentos": [
+    "LVL --- Comet Punch",
+    "LVL --- Rage",
+    "LVL 26 Bite",
+    "LVL 31 Tail Whip",
+    "LVL 36 Mega Punch",
+    "LVL 41 Leer",
+    "LVL 46 Dizzy Punch"
+   ],
+   "sprite": "115.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 3,
+    "velocidade": 3,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 115,
+   "numero": "116",
+   "nome": "Horsea",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 32: Seadra",
+   "localizacao": "Ilha Cinnabar, Rotas 19, 20, 21 e Ilhas Seafrom (pescando)",
+   "descricao": "Um pequeno pokémon da água. Muito comum nos lagos do sul, como o Seafoam Islands e Cinnabar Islands.",
+   "movimentos": [
+    "LVL --- Bubble",
+    "LVL 19 Smoke Screen",
+    "LVL 24 Leer",
+    "LVL 30 Water Gun",
+    "LVL 37 Agility",
+    "LVL 45 Hydro Pump"
+   ],
+   "sprite": "116.gif",
+   "barras_status_1a6": {
+    "energia": 2,
+    "ataque": 1,
+    "defesa": 2,
+    "velocidade": 1,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 116,
+   "numero": "117",
+   "nome": "Seadra",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Unknown Dungeon, Rota 23 e Ilhas Seafrom (pescando)",
+   "descricao": "Um pokémon muito efetivo para quase todos os tipos de pokémons. Seus atributos são todos bons.",
+   "movimentos": [
+    "LVL --- Bubble",
+    "LVL --- Smoke Screen",
+    "LVL --- Leer",
+    "LVL --- Water Gun",
+    "LVL 41 Agility",
+    "LVL 52 Hydro Pump"
+   ],
+   "sprite": "117.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 3,
+    "defesa": 3,
+    "velocidade": 3,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 117,
+   "numero": "118",
+   "nome": "Goldeen",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 33: Seaking",
+   "localizacao": "Rotas 4, 12, 13, 17, 18, 19, 20, 21, 22, 24, 25, Cidade de Cerulean",
+   "descricao": "Use a Super Rod para pescá-lo e achá-lo. Evolui no level 33 para Seaking.",
+   "movimentos": [
+    "LVL --- Peck",
+    "LVL --- Tail Whip",
+    "LVL 19 Super Sonic",
+    "LVL 24 Horn Attack",
+    "LVL 30 Fury Attack",
+    "LVL 37 Waterfall",
+    "LVL 45 Horn Drill",
+    "LVL 54 Agility"
+   ],
+   "sprite": "118.gif",
+   "barras_status_1a6": {
+    "energia": 2,
+    "ataque": 2,
+    "defesa": 2,
+    "velocidade": 2,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 118,
+   "numero": "119",
+   "nome": "Seaking",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Cidade de Fuchsia, Rota 23 e Unknown Dungeon (pescando)",
+   "descricao": "Evolução do Goldeen. Seus muitos ataques são bons.",
+   "movimentos": [
+    "LVL --- Peck",
+    "LVL --- Tail Whip",
+    "LVL --- Super Sonic",
+    "LVL --- Horn Attack",
+    "LVL --- Fury Attack",
+    "LVL 39 Waterfall",
+    "LVL 48 Horn Drill",
+    "LVL 54 Agility"
+   ],
+   "sprite": "119.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 2,
+    "velocidade": 2,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 119,
+   "numero": "120",
+   "nome": "Staryu",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Water Stone: Starmie",
+   "localizacao": "Rotas 19, 20, 21, Ilhas Seafrom e Ilha Cinnabar (pescando)",
+   "descricao": "Achado nos oceanos do sul. Use a Waterstone para evoluí-lo.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Water Gun",
+    "LVL --- Harden",
+    "LVL --- Recover",
+    "LVL --- Swift",
+    "LVL 39 Minimize",
+    "LVL 48 Light Screen",
+    "LVL 54 Hydro Pump"
+   ],
+   "sprite": "120.gif",
+   "barras_status_1a6": {
+    "energia": 2,
+    "ataque": 1,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 120,
+   "numero": "121",
+   "nome": "Starmie",
+   "tipo": "Água / Psíquico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Conseguido somente usando a Waterstone em Staryu. Relativamente poderoso e efetivo.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Water Gun",
+    "LVL --- Harden"
+   ],
+   "sprite": "121.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 2,
+    "defesa": 3,
+    "velocidade": 4,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 121,
+   "numero": "122",
+   "nome": "Mr.Mime",
+   "tipo": "Psíquico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Rota 2",
+   "descricao": "Você pode pegar um Mr. Mime trocando um Abra com outra pessoa no game. Ele é muito amigável.",
+   "movimentos": [
+    "LVL --- Confusion",
+    "LVL --- Barrier",
+    "LVL 23 Light Screen",
+    "LVL 31 Doubleslap",
+    "LVL 39 Meditate",
+    "LVL 47 Substitute"
+   ],
+   "sprite": "122.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 122,
+   "numero": "123",
+   "nome": "Scyther",
+   "tipo": "Inseto / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Safari Zone e Coin Exchange (Cidade de Celadon)",
+   "descricao": "Um pokémon muito poderoso. Dá para notar pelos atributos. Somente na versão vermelha ele é encontrado. Pode ser trocado por moedas na Game Room ou achado na Safari Zone.",
+   "movimentos": [
+    "LVL --- Quick Attack",
+    "LVL 17 Leer",
+    "LVL 20 Focus Energy",
+    "LVL 24 Double Team",
+    "LVL 29 Slash",
+    "LVL 35 Swords Dance",
+    "LVL 42 Agility"
+   ],
+   "sprite": "123.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 4,
+    "defesa": 3,
+    "velocidade": 4,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 123,
+   "numero": "124",
+   "nome": "Jynx",
+   "tipo": "Gelo / Psíquico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Cidade de Cerulean",
+   "descricao": "Muitas pessoas não gostam desse pokémon por causa de sua feiura. Porém, ele tem vários movimentos como o Blizzard. Ele aprende outros também como o Psychic. Pegue-o na Cerulean City trocando um Poliwhirl.",
+   "movimentos": [
+    "LVL --- Pound",
+    "LVL --- Lovely Kiss",
+    "LVL 15 Sing",
+    "LVL 23 Doubleslap",
+    "LVL 31 Ice Punch",
+    "LVL 39 Meditate"
+   ],
+   "sprite": "124.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 3,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 124,
+   "numero": "125",
+   "nome": "Electabuzz",
+   "tipo": "Elétrico",
+   "versao": "Vermelha (Somente)",
+   "evolucao": "Não há",
+   "localizacao": "Power Plant",
+   "descricao": "Um pokémon muito raro e formidável. Achado somente na Powerplant da versão vermelha do game.",
+   "movimentos": [
+    "LVL --- Quick Attack",
+    "LVL 17 Leer",
+    "LVL 20 Thundershock",
+    "LVL 24 Screech",
+    "LVL 29 Thunderpunch",
+    "LVL 35 Light Screen",
+    "LVL 42 Thunder"
+   ],
+   "sprite": "125.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 3,
+    "defesa": 1,
+    "velocidade": 3,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 125,
+   "numero": "126",
+   "nome": "Magmar",
+   "tipo": "Fogo",
+   "versao": "Azul (Somente)",
+   "evolucao": "Não há",
+   "localizacao": "Pokémon House (Ilha Cinnabar)",
+   "descricao": "Muito difícil de achar e difissílimo de pegar. Ele é muito poderoso.",
+   "movimentos": [
+    "LVL --- Ember",
+    "LVL 36 Leer",
+    "LVL 39 Confuse Ray",
+    "LVL 43 Fire Punch",
+    "LVL 48 Smoke Screen",
+    "LVL 52 Smog",
+    "LVL 55 Flamethrower"
+   ],
+   "sprite": "126.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 126,
+   "numero": "127",
+   "nome": "Pinsir",
+   "tipo": "Inseto",
+   "versao": "Azul (Somente)",
+   "evolucao": "Não há",
+   "localizacao": "Safari Zone, Coin Exchange (Cidade de Celadon)",
+   "descricao": "Achado somente na Safari Zone da versão azul do game ou trocando moedas na Game Room - Exchange Corner.",
+   "movimentos": [
+    "LVL --- Vicegrip",
+    "LVL 25 Seismic Toss",
+    "LVL 30 Guillotine",
+    "LVL 36 Focus Energy",
+    "LVL 43 Harden",
+    "LVL 49 Slash",
+    "LVL 54 Swords Dance"
+   ],
+   "sprite": "127.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 4,
+    "defesa": 3,
+    "velocidade": 3,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 127,
+   "numero": "128",
+   "nome": "Tauros",
+   "tipo": "Normal",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Safari Zone",
+   "descricao": "Este pokémon-touro é muito difícil de achar na Safari Zone e mais difícil ainda de pegar. Ele é poderoso o bastante para agüentar uma pokébola de ínicio. Pegue um para o seu time.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL 21 Stomp",
+    "LVL 28 Tail Whip",
+    "LVL 35 Leer",
+    "LVL 44 Rage",
+    "LVL 51 Take Down"
+   ],
+   "sprite": "128.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 3,
+    "velocidade": 4,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 128,
+   "numero": "129",
+   "nome": "Magikarp",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 20: Gyarados",
+   "localizacao": "Rotas 12, 13, 17, 18 e Cidade de Fuchsia (pescando)",
+   "descricao": "Fraquíssimo pokémon. Suas técnicas são horríveis. Porém, no level 20 ele se transformará no temido Gyarados.",
+   "movimentos": [
+    "LVL --- Splash",
+    "LVL 15 Tackle"
+   ],
+   "sprite": "129.gif",
+   "barras_status_1a6": {
+    "energia": 2,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 2,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 129,
+   "numero": "130",
+   "nome": "Gyarados",
+   "tipo": "Água / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Um pokémon muito popular e procurado. Um dos poucos dragões raros do game. Movimentos devastadores com Hydro Pump e Hyper Beam. Ótimo pokémon.",
+   "movimentos": [
+    "LVL 20 Bite",
+    "LVL 25 Dragon Rage",
+    "LVL 32 Leer",
+    "LVL 41 Hydro Pump",
+    "LVL 52 Hyper Beam"
+   ],
+   "sprite": "130.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 4,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 4
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 130,
+   "numero": "131",
+   "nome": "Lapras",
+   "tipo": "Água / Gelo",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Cidade de Saffron",
+   "descricao": "Pokémon conhecido como \"o cavalo-marinho\". Além de muito útil, ele é poderoso e pode atravessar a água com seu movimento Surf. É indispensável ter um destes no time.",
+   "movimentos": [
+    "LVL --- Water Gun",
+    "LVL --- Growl",
+    "LVL 16 Sing",
+    "LVL 20 Mist",
+    "LVL 25 Body Slam",
+    "LVL 31 Confuse Ray",
+    "LVL 38 Ice Beam",
+    "LVL 46 Hydro Pump"
+   ],
+   "sprite": "131.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 3,
+    "velocidade": 1,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 131,
+   "numero": "132",
+   "nome": "Ditto",
+   "tipo": "Normal",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Rotas 13, 14, 15, 23 e Unknown Dungeon",
+   "descricao": "Um pokémon muito especial. Sua única técnica, o Transform, faz ele virar qualquer pokémon (que ele esteja batalhando).",
+   "movimentos": [
+    "LVL --- Transform"
+   ],
+   "sprite": "132.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 132,
+   "numero": "133",
+   "nome": "Eevee",
+   "tipo": "Normal",
+   "versao": "Azul e Vermelha",
+   "evolucao": "ThunderStone: Jolteon / WaterStone: Vaporeon / FireStone: Flareon",
+   "localizacao": "Mansão Celadon (Cidade de Celadon)",
+   "descricao": "O único pokémon que pode evoluir em três pokémons diferentes. Com a Waterstone ele vira o Vaporeon. Com a Thunderstone, ele virá o Jolteon. E, com a Firestone, ele vira o Flareon.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Sand-Attack",
+    "LVL 27 Quick Attack",
+    "LVL 31 Tail Whip",
+    "LVL 37 Bite",
+    "LVL 45 Take Down"
+   ],
+   "sprite": "133.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 1,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 133,
+   "numero": "134",
+   "nome": "Vaporeon",
+   "tipo": "Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Evoluído do Eevee com a Waterstone. É poderoso além de ágil. Seus movimentos incluem Mist e o Hydro Pump.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Sand-Attack",
+    "LVL 27 Quick Attack",
+    "LVL 31 Water Gun",
+    "LVL 37 Tail Whip",
+    "LVL 40 Bite",
+    "LVL 42 Acid Armor",
+    "LVL 44 Haze",
+    "LVL 48 Mist",
+    "LVL 54 Hydro Pump"
+   ],
+   "sprite": "134.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 2,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 4
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 134,
+   "numero": "135",
+   "nome": "Jolteon",
+   "tipo": "Elétrico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Evoluído do Eevee com a Thunderstone. Ele é muito poderoso além de ágil. Seus movimentos incluem Pin Missile e Thunder.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Sand-Attack",
+    "LVL 27 Quick Attack",
+    "LVL 31 Thundershock",
+    "LVL 37 Tail Whip",
+    "LVL 40 Thunderwave",
+    "LVL 42 Double Kick",
+    "LVL 44 Agility",
+    "LVL 48 Pin Missile",
+    "LVL 54 Thunder"
+   ],
+   "sprite": "135.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 2,
+    "defesa": 2,
+    "velocidade": 4,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 135,
+   "numero": "136",
+   "nome": "Flareon",
+   "tipo": "Fogo",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Evoluído do Eevee com a Firestone. Muito poderoso mas, lento. Seus movimentos incluem Fire Spin e Flame Thrower.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Sand-Attack",
+    "LVL 27 Quick Attack",
+    "LVL 31 Ember",
+    "LVL 37 Tail Whip",
+    "LVL 40 Bite",
+    "LVL 42 Leer",
+    "LVL 44 Fire Spin",
+    "LVL 48 Rage",
+    "LVL 54 Flame Thrower"
+   ],
+   "sprite": "136.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 3,
+    "defesa": 1,
+    "velocidade": 2,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 136,
+   "numero": "137",
+   "nome": "Porygon",
+   "tipo": "Normal",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Coin Exchange (Cidade de Celadon)",
+   "descricao": "Extremamente raro. Você pode conseguí-lo trocando por moedas no Game Room no Exchange Corner.",
+   "movimentos": [
+    "LVL --- Tackle",
+    "LVL --- Sharpen",
+    "LVL --- Conversion",
+    "LVL 23 Psybeam",
+    "LVL 28 Harden",
+    "LVL 35 Agility",
+    "LVL 42 Tri Attack"
+   ],
+   "sprite": "137.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 2,
+    "defesa": 2,
+    "velocidade": 1,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 137,
+   "numero": "138",
+   "nome": "Omanyte",
+   "tipo": "Pedra / Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 40: Omastar",
+   "localizacao": "Helix Fossil (Montanha da Lua)",
+   "descricao": "Um pokémon extinto ressucitado do Helix Fossil. Evolui no level 40 para Omastar.",
+   "movimentos": [
+    "LVL --- Water Gun",
+    "LVL --- Withdraw",
+    "LVL 34 Horn Attack",
+    "LVL 39 Leer",
+    "LVL 44 Spike Cannon",
+    "LVL 49 Hydro Pump"
+   ],
+   "sprite": "138.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 1,
+    "defesa": 3,
+    "velocidade": 1,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 138,
+   "numero": "139",
+   "nome": "Omastar",
+   "tipo": "Pedra / Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Usa ataques de água poderosos. Ataques como Hydro Pump e Spike Cannon fazem deste pokémon uma boa escolha.",
+   "movimentos": [
+    "LVL --- Water Gun",
+    "LVL --- Withdraw",
+    "LVL --- Horn Attack",
+    "LVL --- Leer",
+    "LVL 46 Spike Cannon",
+    "LVL 53 Hydro Pump"
+   ],
+   "sprite": "139.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 2,
+    "defesa": 4,
+    "velocidade": 1,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 139,
+   "numero": "140",
+   "nome": "Kabuto",
+   "tipo": "Pedra / Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 40: Kabutops",
+   "localizacao": "Dome Fossil (Montanha da Lua)",
+   "descricao": "Um pokémon extinto ressucitado do Dome Fossil. Evolui no level 40 para Kabutops.",
+   "movimentos": [
+    "LVL --- Scratch",
+    "LVL --- Harden",
+    "LVL 34 Absorb",
+    "LVL 39 Slash",
+    "LVL 46 Leer",
+    "LVL 53 Hydro Pump"
+   ],
+   "sprite": "140.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 3,
+    "defesa": 3,
+    "velocidade": 2,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 140,
+   "numero": "141",
+   "nome": "Kabutops",
+   "tipo": "Pedra / Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "Usa ataques da água poderosos. Ataques com o Hydro Pump fazem deste uma ótima escolha para o tipo da rocha ou da água.",
+   "movimentos": [
+    "LVL --- Scratch",
+    "LVL --- Harden",
+    "LVL --- Absorb",
+    "LVL --- Slash",
+    "LVL 46 Leer",
+    "LVL 53 Hydro Pump"
+   ],
+   "sprite": "141.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 4,
+    "defesa": 4,
+    "velocidade": 3,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 141,
+   "numero": "142",
+   "nome": "Aerodactyl",
+   "tipo": "Pedra / Água",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Old Lamber (Cidade de Pewter)",
+   "descricao": "O pokémon mais extinto dos três (Kabuto, Omanyte e Aerodactyl) ressucitado do Old Amber. Seus ataques como o Hyper Beam são devastadores.",
+   "movimentos": [
+    "LVL --- Wing Attack",
+    "LVL --- Agility",
+    "LVL 33 Supersonic",
+    "LVL 38 Bite",
+    "LVL 45 Take Down",
+    "LVL 54 Hyper Beam"
+   ],
+   "sprite": "142.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 4,
+    "defesa": 2,
+    "velocidade": 3,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 142,
+   "numero": "143",
+   "nome": "Snorlax",
+   "tipo": "Normal",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Rotas 12 e 16",
+   "descricao": "O pokémon mais \"gordo\" de todos. Ele está sempre dormindo. Só aparece duas vezes no game. É preciso uma Pokéflute para acordá-lo.",
+   "movimentos": [
+    "LVL --- Headbutt",
+    "LVL --- Amnesia",
+    "LVL --- Rest",
+    "LVL 35 Body Slam",
+    "LVL 41 Harden",
+    "LVL 48 Double-Edge",
+    "LVL 56 Hyper Beam"
+   ],
+   "sprite": "143.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 2,
+    "velocidade": 1,
+    "especial": 1
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 143,
+   "numero": "144",
+   "nome": "Articuno",
+   "tipo": "Gelo / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Ilhas Seafrom",
+   "descricao": "Um dos três pokémons legendários. Achado na Seafoam Islands. Se quiser pegá-lo, arme-se com uma Ultra-Ball ou uma Master-Ball.",
+   "movimentos": [
+    "LVL --- Peck",
+    "LVL --- Ice Beam",
+    "LVL 51 Blizzard",
+    "LVL 55 Agility",
+    "LVL 60 Mist"
+   ],
+   "sprite": "144.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 2,
+    "defesa": 3,
+    "velocidade": 3,
+    "especial": 4
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 144,
+   "numero": "145",
+   "nome": "Zapdos",
+   "tipo": "Elétrico / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Power Plant",
+   "descricao": "O segundo dos três pokémons legendários. Achado na Powerplant. Se quiser pegá-lo, arme-se com uma Ultra-Ball ou uma Master-Ball.",
+   "movimentos": [
+    "LVL --- Thundershock",
+    "LVL --- Drill Peck",
+    "LVL 51 Thunder",
+    "LVL 55 Agility",
+    "VL 60 Light Screen"
+   ],
+   "sprite": "145.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 3,
+    "defesa": 3,
+    "velocidade": 3,
+    "especial": 5
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 145,
+   "numero": "146",
+   "nome": "Moltres",
+   "tipo": "Fogo / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Victory Road",
+   "descricao": "O último dos três pokémons legendários. Achado na Victory Road. Se quiser pegá-lo, arme-se com uma Ultra-Ball ou uma Master-Ball.",
+   "movimentos": [
+    "LVL --- Peck",
+    "LVL --- Fire Spin",
+    "LVL 51 Leer",
+    "LVL 55 Agility",
+    "LVL 60 Sky Attack"
+   ],
+   "sprite": "146.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 4,
+    "defesa": 3,
+    "velocidade": 3,
+    "especial": 5
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 146,
+   "numero": "147",
+   "nome": "Dratini",
+   "tipo": "Dragão",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 30: Dragonaire / Level 55: Dragonite",
+   "localizacao": "Safari Zone (pescando) e Coin Exchange (Cidade de Celadon)",
+   "descricao": "Um pokémon místico muito raro. Pode ser achado na Safari Zone.",
+   "movimentos": [
+    "LVL --- Wrap",
+    "LVL --- Leer",
+    "LVL 10 Thunder Wave",
+    "LVL 20 Agility",
+    "LVL 30 Slam",
+    "LVL 40 Dragon Rage",
+    "LVL 50 Hyper Beam"
+   ],
+   "sprite": "147.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 1,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 147,
+   "numero": "148",
+   "nome": "Dragonair",
+   "tipo": "Dragão",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Level 55: Dragonite",
+   "localizacao": "Evolução",
+   "descricao": "Primeira evolução do Dratini. Místico e muito raro. Ele evolui no level 55 para Dragonite.",
+   "movimentos": [
+    "LVL --- Wrap",
+    "LVL --- Leer",
+    "LVL --- Thunder Wave",
+    "LVL --- Agility",
+    "LVL 35 Slam",
+    "LVL 45 Dragon Rage",
+    "LVL 55 Hyper Beam"
+   ],
+   "sprite": "148.gif",
+   "barras_status_1a6": {
+    "energia": 4,
+    "ataque": 2,
+    "defesa": 1,
+    "velocidade": 2,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 148,
+   "numero": "149",
+   "nome": "Dragonite",
+   "tipo": "Dragão",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Evolução",
+   "descricao": "O pokémon mais raro do game. Ele é muito poderoso. Seus ataques deixam o inimigo no chão.",
+   "movimentos": [
+    "LVL --- Wrap",
+    "LVL --- Leer",
+    "LVL --- Thunder Wave",
+    "LVL --- Agility",
+    "LVL --- Slam",
+    "LVL --- Dragon Rage",
+    "LVL 60 Hyper Beam"
+   ],
+   "sprite": "149.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 5,
+    "defesa": 3,
+    "velocidade": 3,
+    "especial": 3
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 149,
+   "numero": "150",
+   "nome": "Mewtwo",
+   "tipo": "Psíquico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "Unknown Dungeon",
+   "descricao": "O melhor pokémon do game (com excessão do Mew, mas ele (Mew) não está no game).",
+   "movimentos": [
+    "LVL --- Confusion",
+    "LVL --- Disable",
+    "LVL --- Swift",
+    "LVL 63 Barrier",
+    "LVL 66 Psychic",
+    "LVL 70 Recover",
+    "LVL 75 Mist",
+    "LVL 81 Amnesia"
+   ],
+   "sprite": "150.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 4,
+    "defesa": 4,
+    "velocidade": 5,
+    "especial": 5
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 150,
+   "numero": "000",
+   "nome": "Missingno",
+   "tipo": "Normal / Voador",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "??????¿¿¿¿¿¿",
+   "descricao": "Missingno é talvez, um pokémon real. É provável que Missingno seja um bug do jogo.\nAlguns dizem ter pego este pokémon, outros dizem que este pokémon não existe, é uma lenda.",
+   "movimentos": [
+    "LVL --- Water Gun",
+    "LVL --- Sky Attack",
+    "LVL 30 Metronome",
+    "LVL 40 Psychic"
+   ],
+   "sprite": "000.gif",
+   "barras_status_1a6": {
+    "energia": 3,
+    "ataque": 5,
+    "defesa": 1,
+    "velocidade": 3,
+    "especial": 2
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 151,
+   "numero": "151",
+   "nome": "Mew",
+   "tipo": "Psíquico",
+   "versao": "Azul e Vermelha",
+   "evolucao": "Não há",
+   "localizacao": "??????¿¿¿¿¿¿",
+   "descricao": "O melhor pokémon existente. Ele não está no game mas pode ser conseguido somente com o uso do Gameshark. Coloque o código 0115D8CF e tente lutar no gramado, aparecerá uma imagem retorcida, é o Mew.\nPegue-o com a Master-Ball. Pronto, você tem o melhor pokémon do game.",
+   "movimentos": [
+    "LVL 10 Transform",
+    "LVL 20 Mega Punch",
+    "LVL 30 Metronome",
+    "LVL 40 Psychic"
+   ],
+   "sprite": "151.gif",
+   "barras_status_1a6": {
+    "energia": 5,
+    "ataque": 5,
+    "defesa": 5,
+    "velocidade": 5,
+    "especial": 5
+   },
+   "categoria": "pokemon"
+  },
+  {
+   "indice_listbox": 152,
+   "numero": "",
+   "nome": "Ash",
+   "tipo": "",
+   "versao": "",
+   "evolucao": "",
+   "localizacao": "",
+   "descricao": "",
+   "movimentos": [],
+   "sprite": "ash.gif",
+   "barras_status_1a6": {
+    "energia": null,
+    "ataque": null,
+    "defesa": null,
+    "velocidade": null,
+    "especial": null
+   },
+   "categoria": "personagem",
+   "observacao": "só alcançável pela lista do botão \"Personagens\" (codeClick), que é Visible=False e nunca é exibido"
+  },
+  {
+   "indice_listbox": 153,
+   "numero": "",
+   "nome": "Brock",
+   "tipo": "",
+   "versao": "",
+   "evolucao": "",
+   "localizacao": "",
+   "descricao": "",
+   "movimentos": [],
+   "sprite": "brock.gif",
+   "barras_status_1a6": {
+    "energia": null,
+    "ataque": null,
+    "defesa": null,
+    "velocidade": null,
+    "especial": null
+   },
+   "categoria": "personagem",
+   "observacao": "só alcançável pela lista do botão \"Personagens\" (codeClick), que é Visible=False e nunca é exibido"
+  },
+  {
+   "indice_listbox": 154,
+   "numero": "",
+   "nome": "Misty",
+   "tipo": "",
+   "versao": "",
+   "evolucao": "",
+   "localizacao": "",
+   "descricao": "",
+   "movimentos": [],
+   "sprite": "Misty.gif",
+   "barras_status_1a6": {
+    "energia": null,
+    "ataque": null,
+    "defesa": null,
+    "velocidade": null,
+    "especial": null
+   },
+   "categoria": "personagem",
+   "observacao": "só alcançável pela lista do botão \"Personagens\" (codeClick), que é Visible=False e nunca é exibido"
+  },
+  {
+   "indice_listbox": 155,
+   "numero": "",
+   "nome": "Professor Oak",
+   "tipo": "",
+   "versao": "",
+   "evolucao": "",
+   "localizacao": "",
+   "descricao": "",
+   "movimentos": [],
+   "sprite": "oak.gif",
+   "barras_status_1a6": {
+    "energia": null,
+    "ataque": null,
+    "defesa": null,
+    "velocidade": null,
+    "especial": null
+   },
+   "categoria": "personagem",
+   "observacao": "só alcançável pela lista do botão \"Personagens\" (codeClick), que é Visible=False e nunca é exibido"
+  },
+  {
+   "indice_listbox": 156,
+   "numero": "",
+   "nome": "Team Rocket",
+   "tipo": "",
+   "versao": "",
+   "evolucao": "",
+   "localizacao": "",
+   "descricao": "",
+   "movimentos": [],
+   "sprite": "team.gif",
+   "barras_status_1a6": {
+    "energia": null,
+    "ataque": null,
+    "defesa": null,
+    "velocidade": null,
+    "especial": null
+   },
+   "categoria": "personagem",
+   "observacao": "só alcançável pela lista do botão \"Personagens\" (codeClick), que é Visible=False e nunca é exibido"
+  },
+  {
+   "indice_listbox": 157,
+   "numero": "",
+   "nome": "Gary",
+   "tipo": "",
+   "versao": "",
+   "evolucao": "",
+   "localizacao": "",
+   "descricao": "",
+   "movimentos": [],
+   "sprite": "gary.gif",
+   "barras_status_1a6": {
+    "energia": null,
+    "ataque": null,
+    "defesa": null,
+    "velocidade": null,
+    "especial": null
+   },
+   "categoria": "personagem",
+   "observacao": "só alcançável pela lista do botão \"Personagens\" (codeClick), que é Visible=False e nunca é exibido"
+  }
+ ]
+}

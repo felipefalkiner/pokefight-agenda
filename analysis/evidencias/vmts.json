@@ -1,0 +1,2071 @@
+{
+ "TObject": {
+  "vmt": "0x40111c",
+  "parent": null,
+  "methods": []
+ },
+ "TInterfacedObject": {
+  "vmt": "0x40120c",
+  "parent": "TObject",
+  "methods": []
+ },
+ "Exception": {
+  "vmt": "0x407578",
+  "parent": "TObject",
+  "methods": []
+ },
+ "EAbort": {
+  "vmt": "0x4075e0",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EHeapException": {
+  "vmt": "0x407634",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EOutOfMemory": {
+  "vmt": "0x407690",
+  "parent": "EHeapException",
+  "methods": []
+ },
+ "EInOutError": {
+  "vmt": "0x4076ec",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EExternal": {
+  "vmt": "0x407744",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EExternalException": {
+  "vmt": "0x40779c",
+  "parent": "EExternal",
+  "methods": []
+ },
+ "EIntError": {
+  "vmt": "0x4077fc",
+  "parent": "EExternal",
+  "methods": []
+ },
+ "EDivByZero": {
+  "vmt": "0x407854",
+  "parent": "EIntError",
+  "methods": []
+ },
+ "ERangeError": {
+  "vmt": "0x4078ac",
+  "parent": "EIntError",
+  "methods": []
+ },
+ "EIntOverflow": {
+  "vmt": "0x407904",
+  "parent": "EIntError",
+  "methods": []
+ },
+ "EMathError": {
+  "vmt": "0x407960",
+  "parent": "EExternal",
+  "methods": []
+ },
+ "EInvalidOp": {
+  "vmt": "0x4079b8",
+  "parent": "EMathError",
+  "methods": []
+ },
+ "EZeroDivide": {
+  "vmt": "0x407a10",
+  "parent": "EMathError",
+  "methods": []
+ },
+ "EOverflow": {
+  "vmt": "0x407a68",
+  "parent": "EMathError",
+  "methods": []
+ },
+ "EUnderflow": {
+  "vmt": "0x407ac0",
+  "parent": "EMathError",
+  "methods": []
+ },
+ "EInvalidPointer": {
+  "vmt": "0x407b18",
+  "parent": "EHeapException",
+  "methods": []
+ },
+ "EInvalidCast": {
+  "vmt": "0x407b74",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EConvertError": {
+  "vmt": "0x407bd0",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EAccessViolation": {
+  "vmt": "0x407c2c",
+  "parent": "EExternal",
+  "methods": []
+ },
+ "EPrivilege": {
+  "vmt": "0x407c8c",
+  "parent": "EExternal",
+  "methods": []
+ },
+ "EStackOverflow": {
+  "vmt": "0x407ce4",
+  "parent": "EExternal",
+  "methods": []
+ },
+ "EControlC": {
+  "vmt": "0x407d40",
+  "parent": "EExternal",
+  "methods": []
+ },
+ "EVariantError": {
+  "vmt": "0x407d98",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EAssertionFailed": {
+  "vmt": "0x407df4",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EAbstractError": {
+  "vmt": "0x407e54",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EIntfCastError": {
+  "vmt": "0x407eb0",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EWin32Error": {
+  "vmt": "0x407f0c",
+  "parent": "Exception",
+  "methods": []
+ },
+ "TMultiReadExclusiveWriteSynchronizer": {
+  "vmt": "0x407f94",
+  "parent": "TObject",
+  "methods": []
+ },
+ "EStreamError": {
+  "vmt": "0x40e978",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EFCreateError": {
+  "vmt": "0x40e9d4",
+  "parent": "EStreamError",
+  "methods": []
+ },
+ "EFOpenError": {
+  "vmt": "0x40ea30",
+  "parent": "EStreamError",
+  "methods": []
+ },
+ "EFilerError": {
+  "vmt": "0x40ea88",
+  "parent": "EStreamError",
+  "methods": []
+ },
+ "EReadError": {
+  "vmt": "0x40eae0",
+  "parent": "EFilerError",
+  "methods": []
+ },
+ "EWriteError": {
+  "vmt": "0x40eb38",
+  "parent": "EFilerError",
+  "methods": []
+ },
+ "EClassNotFound": {
+  "vmt": "0x40eb90",
+  "parent": "EFilerError",
+  "methods": []
+ },
+ "EResNotFound": {
+  "vmt": "0x40ebec",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EListError": {
+  "vmt": "0x40ec48",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EBitsError": {
+  "vmt": "0x40eca0",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EStringListError": {
+  "vmt": "0x40ecf8",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EComponentError": {
+  "vmt": "0x40ed58",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EOutOfResources": {
+  "vmt": "0x40edb4",
+  "parent": "EOutOfMemory",
+  "methods": []
+ },
+ "EInvalidOperation": {
+  "vmt": "0x40ee10",
+  "parent": "Exception",
+  "methods": []
+ },
+ "TList": {
+  "vmt": "0x40ee70",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TThreadList": {
+  "vmt": "0x40eed4",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TBits": {
+  "vmt": "0x40ef2c",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TPersistent": {
+  "vmt": "0x40ef80",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TCollectionItem": {
+  "vmt": "0x40f01c",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TCollection": {
+  "vmt": "0x40f0d0",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TOwnedCollection": {
+  "vmt": "0x40f198",
+  "parent": "TCollection",
+  "methods": []
+ },
+ "TStrings": {
+  "vmt": "0x40f27c",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TStringList": {
+  "vmt": "0x40f39c",
+  "parent": "TStrings",
+  "methods": []
+ },
+ "TStream": {
+  "vmt": "0x40f49c",
+  "parent": "TObject",
+  "methods": []
+ },
+ "THandleStream": {
+  "vmt": "0x40f500",
+  "parent": "TStream",
+  "methods": []
+ },
+ "TFileStream": {
+  "vmt": "0x40f56c",
+  "parent": "THandleStream",
+  "methods": []
+ },
+ "TCustomMemoryStream": {
+  "vmt": "0x40f5d4",
+  "parent": "TStream",
+  "methods": []
+ },
+ "TMemoryStream": {
+  "vmt": "0x40f644",
+  "parent": "TCustomMemoryStream",
+  "methods": []
+ },
+ "TResourceStream": {
+  "vmt": "0x40f6b4",
+  "parent": "TCustomMemoryStream",
+  "methods": []
+ },
+ "TStreamAdapter": {
+  "vmt": "0x40f834",
+  "parent": "TInterfacedObject",
+  "methods": []
+ },
+ "TFiler": {
+  "vmt": "0x40f8bc",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TReader": {
+  "vmt": "0x40f91c",
+  "parent": "TFiler",
+  "methods": []
+ },
+ "TThread": {
+  "vmt": "0x40fa10",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TComponent": {
+  "vmt": "0x40fab4",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TBasicActionLink": {
+  "vmt": "0x40fc10",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TBasicAction": {
+  "vmt": "0x40fc94",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TIntConst": {
+  "vmt": "0x410228",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TPropFixup": {
+  "vmt": "0x4135c8",
+  "parent": "TObject",
+  "methods": []
+ },
+ "EInvalidGraphic": {
+  "vmt": "0x416f6c",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EInvalidGraphicOperation": {
+  "vmt": "0x416fc8",
+  "parent": "Exception",
+  "methods": []
+ },
+ "TGraphicsObject": {
+  "vmt": "0x417280",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TFont": {
+  "vmt": "0x417354",
+  "parent": "TGraphicsObject",
+  "methods": []
+ },
+ "TPen": {
+  "vmt": "0x4174d0",
+  "parent": "TGraphicsObject",
+  "methods": []
+ },
+ "TBrush": {
+  "vmt": "0x4175d0",
+  "parent": "TGraphicsObject",
+  "methods": []
+ },
+ "TCanvas": {
+  "vmt": "0x417694",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TGraphic": {
+  "vmt": "0x41781c",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TPicture": {
+  "vmt": "0x417900",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TSharedImage": {
+  "vmt": "0x4179a8",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TMetafileImage": {
+  "vmt": "0x417a08",
+  "parent": "TSharedImage",
+  "methods": []
+ },
+ "TMetafile": {
+  "vmt": "0x417a68",
+  "parent": "TGraphic",
+  "methods": []
+ },
+ "TBitmapImage": {
+  "vmt": "0x417b44",
+  "parent": "TSharedImage",
+  "methods": []
+ },
+ "TBitmap": {
+  "vmt": "0x417ba4",
+  "parent": "TGraphic",
+  "methods": []
+ },
+ "TIconImage": {
+  "vmt": "0x417c88",
+  "parent": "TSharedImage",
+  "methods": []
+ },
+ "TIcon": {
+  "vmt": "0x417ce4",
+  "parent": "TGraphic",
+  "methods": []
+ },
+ "TResourceManager": {
+  "vmt": "0x417dcc",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TFileFormatsList": {
+  "vmt": "0x41b664",
+  "parent": "TList",
+  "methods": []
+ },
+ "TClipboardFormats": {
+  "vmt": "0x41bc28",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TBitmapCanvas": {
+  "vmt": "0x41d23c",
+  "parent": "TCanvas",
+  "methods": []
+ },
+ "TPatternManager": {
+  "vmt": "0x420140",
+  "parent": "TObject",
+  "methods": []
+ },
+ "EPrinter": {
+  "vmt": "0x421038",
+  "parent": "Exception",
+  "methods": []
+ },
+ "TPrinter": {
+  "vmt": "0x421090",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TPrinterDevice": {
+  "vmt": "0x421168",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TPrinterCanvas": {
+  "vmt": "0x4212c4",
+  "parent": "TCanvas",
+  "methods": [
+   [
+    "CreateHandle",
+    "0x4213a4"
+   ],
+   [
+    "Changing",
+    "0x4213c8"
+   ],
+   [
+    "UpdateFont",
+    "0x4213e8"
+   ]
+  ]
+ },
+ "TCustomGroupBox": {
+  "vmt": "0x4223e0",
+  "parent": "TCustomControl",
+  "methods": []
+ },
+ "TGroupBox": {
+  "vmt": "0x422540",
+  "parent": "TCustomGroupBox",
+  "methods": []
+ },
+ "TCustomLabel": {
+  "vmt": "0x422c4c",
+  "parent": "TGraphicControl",
+  "methods": []
+ },
+ "TLabel": {
+  "vmt": "0x422d84",
+  "parent": "TCustomLabel",
+  "methods": []
+ },
+ "TCustomEdit": {
+  "vmt": "0x4233e8",
+  "parent": "TWinControl",
+  "methods": []
+ },
+ "TEdit": {
+  "vmt": "0x42358c",
+  "parent": "TCustomEdit",
+  "methods": []
+ },
+ "TCustomMemo": {
+  "vmt": "0x423e00",
+  "parent": "TCustomEdit",
+  "methods": []
+ },
+ "TMemo": {
+  "vmt": "0x423f78",
+  "parent": "TCustomMemo",
+  "methods": []
+ },
+ "TCustomComboBox": {
+  "vmt": "0x424908",
+  "parent": "TWinControl",
+  "methods": []
+ },
+ "TComboBox": {
+  "vmt": "0x424ae0",
+  "parent": "TCustomComboBox",
+  "methods": []
+ },
+ "TButtonActionLink": {
+  "vmt": "0x425290",
+  "parent": "TWinControlActionLink",
+  "methods": []
+ },
+ "TButtonControl": {
+  "vmt": "0x425350",
+  "parent": "TWinControl",
+  "methods": []
+ },
+ "TButton": {
+  "vmt": "0x4254a8",
+  "parent": "TButtonControl",
+  "methods": []
+ },
+ "TCustomCheckBox": {
+  "vmt": "0x425b54",
+  "parent": "TButtonControl",
+  "methods": []
+ },
+ "TCheckBox": {
+  "vmt": "0x425cec",
+  "parent": "TCustomCheckBox",
+  "methods": []
+ },
+ "TRadioButton": {
+  "vmt": "0x4263e4",
+  "parent": "TButtonControl",
+  "methods": []
+ },
+ "TCustomListBox": {
+  "vmt": "0x426b2c",
+  "parent": "TWinControl",
+  "methods": []
+ },
+ "TListBox": {
+  "vmt": "0x426ce0",
+  "parent": "TCustomListBox",
+  "methods": []
+ },
+ "TMemoStrings": {
+  "vmt": "0x427558",
+  "parent": "TStrings",
+  "methods": []
+ },
+ "TComboBoxStrings": {
+  "vmt": "0x42764c",
+  "parent": "TStrings",
+  "methods": []
+ },
+ "TListBoxStrings": {
+  "vmt": "0x427748",
+  "parent": "TStrings",
+  "methods": []
+ },
+ "TClipboard": {
+  "vmt": "0x42c1b0",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "THintAction": {
+  "vmt": "0x42c7a4",
+  "parent": "TCustomAction",
+  "methods": []
+ },
+ "TDragObject": {
+  "vmt": "0x42c960",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TBaseDragControlObject": {
+  "vmt": "0x42c9d8",
+  "parent": "TDragObject",
+  "methods": []
+ },
+ "TDragControlObject": {
+  "vmt": "0x42ca64",
+  "parent": "TBaseDragControlObject",
+  "methods": []
+ },
+ "TDragDockObject": {
+  "vmt": "0x42caec",
+  "parent": "TBaseDragControlObject",
+  "methods": []
+ },
+ "TControlCanvas": {
+  "vmt": "0x42cb80",
+  "parent": "TCanvas",
+  "methods": []
+ },
+ "TControlActionLink": {
+  "vmt": "0x42cc20",
+  "parent": "TActionLink",
+  "methods": []
+ },
+ "TSizeConstraints": {
+  "vmt": "0x42cdd8",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TControl": {
+  "vmt": "0x42d50c",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TWinControlActionLink": {
+  "vmt": "0x42d870",
+  "parent": "TControlActionLink",
+  "methods": []
+ },
+ "TWinControl": {
+  "vmt": "0x42da78",
+  "parent": "TControl",
+  "methods": []
+ },
+ "TGraphicControl": {
+  "vmt": "0x42de74",
+  "parent": "TControl",
+  "methods": []
+ },
+ "TCustomControl": {
+  "vmt": "0x42df90",
+  "parent": "TWinControl",
+  "methods": []
+ },
+ "THintWindow": {
+  "vmt": "0x42e0dc",
+  "parent": "TCustomControl",
+  "methods": []
+ },
+ "TDragImageList": {
+  "vmt": "0x42e23c",
+  "parent": "TCustomImageList",
+  "methods": []
+ },
+ "TImageList": {
+  "vmt": "0x42e300",
+  "parent": "TDragImageList",
+  "methods": []
+ },
+ "TDockZone": {
+  "vmt": "0x42e518",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TDockTree": {
+  "vmt": "0x42e664",
+  "parent": "TInterfacedObject",
+  "methods": []
+ },
+ "TMouse": {
+  "vmt": "0x42e6e4",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TSiteList": {
+  "vmt": "0x42eaf8",
+  "parent": "TList",
+  "methods": []
+ },
+ "TContainedAction": {
+  "vmt": "0x43ba90",
+  "parent": "TBasicAction",
+  "methods": []
+ },
+ "TCustomActionList": {
+  "vmt": "0x43bbf0",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TCustomAction": {
+  "vmt": "0x43bcc8",
+  "parent": "TContainedAction",
+  "methods": []
+ },
+ "TActionLink": {
+  "vmt": "0x43bdb4",
+  "parent": "TBasicActionLink",
+  "methods": []
+ },
+ "TChangeLink": {
+  "vmt": "0x43c904",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TCustomImageList": {
+  "vmt": "0x43c9dc",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "EMenuError": {
+  "vmt": "0x43e5d8",
+  "parent": "Exception",
+  "methods": []
+ },
+ "TMenuActionLink": {
+  "vmt": "0x43e770",
+  "parent": "TActionLink",
+  "methods": []
+ },
+ "TMenuItem": {
+  "vmt": "0x43e828",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TMenu": {
+  "vmt": "0x43eb78",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TMainMenu": {
+  "vmt": "0x43ec6c",
+  "parent": "TMenu",
+  "methods": []
+ },
+ "TPopupMenu": {
+  "vmt": "0x43ee38",
+  "parent": "TMenu",
+  "methods": []
+ },
+ "TPopupList": {
+  "vmt": "0x49fa84",
+  "parent": "TList",
+  "methods": []
+ },
+ "TControlScrollBar": {
+  "vmt": "0x442dac",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TScrollingWinControl": {
+  "vmt": "0x443000",
+  "parent": "TWinControl",
+  "methods": []
+ },
+ "TScrollBox": {
+  "vmt": "0x443244",
+  "parent": "TScrollingWinControl",
+  "methods": []
+ },
+ "TCustomForm": {
+  "vmt": "0x443d74",
+  "parent": "TScrollingWinControl",
+  "methods": []
+ },
+ "TForm": {
+  "vmt": "0x444050",
+  "parent": "TCustomForm",
+  "methods": []
+ },
+ "TCustomDockForm": {
+  "vmt": "0x444cb4",
+  "parent": "TCustomForm",
+  "methods": []
+ },
+ "TMonitor": {
+  "vmt": "0x444e6c",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TScreen": {
+  "vmt": "0x444ec4",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TApplication": {
+  "vmt": "0x445080",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TPaintBox": {
+  "vmt": "0x44f01c",
+  "parent": "TGraphicControl",
+  "methods": []
+ },
+ "TImage": {
+  "vmt": "0x44f4ec",
+  "parent": "TGraphicControl",
+  "methods": []
+ },
+ "TBevel": {
+  "vmt": "0x44fab4",
+  "parent": "TGraphicControl",
+  "methods": []
+ },
+ "TTimer": {
+  "vmt": "0x44fccc",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TCustomPanel": {
+  "vmt": "0x44fde0",
+  "parent": "TCustomControl",
+  "methods": []
+ },
+ "TPanel": {
+  "vmt": "0x44ff4c",
+  "parent": "TCustomPanel",
+  "methods": []
+ },
+ "TCustomRadioGroup": {
+  "vmt": "0x450800",
+  "parent": "TCustomGroupBox",
+  "methods": []
+ },
+ "TRadioGroup": {
+  "vmt": "0x45096c",
+  "parent": "TCustomRadioGroup",
+  "methods": []
+ },
+ "TGroupButton": {
+  "vmt": "0x4522d4",
+  "parent": "TRadioButton",
+  "methods": []
+ },
+ "TCommonDialog": {
+  "vmt": "0x452bb4",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TOpenDialog": {
+  "vmt": "0x452ea0",
+  "parent": "TCommonDialog",
+  "methods": []
+ },
+ "TSaveDialog": {
+  "vmt": "0x453144",
+  "parent": "TOpenDialog",
+  "methods": [
+   [
+    "Execute",
+    "0x454718"
+   ]
+  ]
+ },
+ "TFontDialog": {
+  "vmt": "0x4533a4",
+  "parent": "TCommonDialog",
+  "methods": []
+ },
+ "TPrintDialog": {
+  "vmt": "0x45360c",
+  "parent": "TCommonDialog",
+  "methods": []
+ },
+ "TFindDialog": {
+  "vmt": "0x4538f0",
+  "parent": "TCommonDialog",
+  "methods": []
+ },
+ "TReplaceDialog": {
+  "vmt": "0x453a24",
+  "parent": "TFindDialog",
+  "methods": []
+ },
+ "TRedirectorWindow": {
+  "vmt": "0x454f74",
+  "parent": "TWinControl",
+  "methods": []
+ },
+ "TMessageForm": {
+  "vmt": "0x455744",
+  "parent": "TForm",
+  "methods": []
+ },
+ "TRxWindowHook": {
+  "vmt": "0x456600",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TControlHook": {
+  "vmt": "0x456754",
+  "parent": "TObject",
+  "methods": []
+ },
+ "THookList": {
+  "vmt": "0x4567b0",
+  "parent": "TList",
+  "methods": []
+ },
+ "TCustomIniFile": {
+  "vmt": "0x458a24",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TIniFile": {
+  "vmt": "0x458ae4",
+  "parent": "TCustomIniFile",
+  "methods": []
+ },
+ "ERegistryException": {
+  "vmt": "0x459708",
+  "parent": "Exception",
+  "methods": []
+ },
+ "TRegistry": {
+  "vmt": "0x459768",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TRegIniFile": {
+  "vmt": "0x4597d0",
+  "parent": "TRegistry",
+  "methods": []
+ },
+ "EOleError": {
+  "vmt": "0x45ab28",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EOleSysError": {
+  "vmt": "0x45ab80",
+  "parent": "EOleError",
+  "methods": []
+ },
+ "EOleException": {
+  "vmt": "0x45abdc",
+  "parent": "EOleSysError",
+  "methods": []
+ },
+ "TSpeedButton": {
+  "vmt": "0x45bc1c",
+  "parent": "TGraphicControl",
+  "methods": []
+ },
+ "TBitBtn": {
+  "vmt": "0x45c1d4",
+  "parent": "TButton",
+  "methods": []
+ },
+ "TGlyphList": {
+  "vmt": "0x491b54",
+  "parent": "TImageList",
+  "methods": []
+ },
+ "TGlyphCache": {
+  "vmt": "0x491c0c",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TButtonGlyph": {
+  "vmt": "0x45c878",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TToolWindow": {
+  "vmt": "0x45ecfc",
+  "parent": "TWinControl",
+  "methods": []
+ },
+ "TStatusPanel": {
+  "vmt": "0x45f204",
+  "parent": "TCollectionItem",
+  "methods": []
+ },
+ "TStatusPanels": {
+  "vmt": "0x45f3a4",
+  "parent": "TCollection",
+  "methods": []
+ },
+ "TStatusBar": {
+  "vmt": "0x45f49c",
+  "parent": "TWinControl",
+  "methods": []
+ },
+ "TTextAttributes": {
+  "vmt": "0x45fbac",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TParaAttributes": {
+  "vmt": "0x45fc40",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TConversion": {
+  "vmt": "0x45fde0",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TCustomRichEdit": {
+  "vmt": "0x45fe68",
+  "parent": "TCustomMemo",
+  "methods": []
+ },
+ "TRichEdit": {
+  "vmt": "0x46000c",
+  "parent": "TCustomRichEdit",
+  "methods": []
+ },
+ "TCustomUpDown": {
+  "vmt": "0x4609f4",
+  "parent": "TWinControl",
+  "methods": []
+ },
+ "TCoolBand": {
+  "vmt": "0x460b5c",
+  "parent": "TCollectionItem",
+  "methods": []
+ },
+ "TCoolBands": {
+  "vmt": "0x460e50",
+  "parent": "TCollection",
+  "methods": []
+ },
+ "TCoolBar": {
+  "vmt": "0x460f34",
+  "parent": "TToolWindow",
+  "methods": []
+ },
+ "TRichEditStrings": {
+  "vmt": "0x499048",
+  "parent": "TStrings",
+  "methods": []
+ },
+ "TPropInfoList": {
+  "vmt": "0x467298",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TPropsStorage": {
+  "vmt": "0x4672f4",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TWinMinMaxInfo": {
+  "vmt": "0x469578",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TFormPlacement": {
+  "vmt": "0x469744",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TFormStorage": {
+  "vmt": "0x4699bc",
+  "parent": "TFormPlacement",
+  "methods": []
+ },
+ "TIniLink": {
+  "vmt": "0x469ad4",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TStoredValue": {
+  "vmt": "0x469ba4",
+  "parent": "TCollectionItem",
+  "methods": []
+ },
+ "TStoredValues": {
+  "vmt": "0x469d14",
+  "parent": "TOwnedCollection",
+  "methods": []
+ },
+ "TRxGradientCaption": {
+  "vmt": "0x46c97c",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TRxCaptionList": {
+  "vmt": "0x46cc64",
+  "parent": "TCollection",
+  "methods": []
+ },
+ "TRxCaption": {
+  "vmt": "0x46cd10",
+  "parent": "TCollectionItem",
+  "methods": []
+ },
+ "TRxTimer": {
+  "vmt": "0x46ea3c",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TTimerThread": {
+  "vmt": "0x48e790",
+  "parent": "TThread",
+  "methods": []
+ },
+ "TRxImageControl": {
+  "vmt": "0x46f150",
+  "parent": "TGraphicControl",
+  "methods": []
+ },
+ "THack": {
+  "vmt": "0x46f2e4",
+  "parent": "TBitmap",
+  "methods": []
+ },
+ "TIconList": {
+  "vmt": "0x4714b0",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TIconFrame": {
+  "vmt": "0x4726f4",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TAnimatedCursorImage": {
+  "vmt": "0x47277c",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TGIFImage": {
+  "vmt": "0x473ac4",
+  "parent": "TGraphic",
+  "methods": []
+ },
+ "TGIFFrame": {
+  "vmt": "0x473ba4",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TGIFData": {
+  "vmt": "0x473c30",
+  "parent": "TSharedImage",
+  "methods": []
+ },
+ "TGIFItem": {
+  "vmt": "0x473c8c",
+  "parent": "TSharedImage",
+  "methods": []
+ },
+ "TExtension": {
+  "vmt": "0x473de8",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TRxGIFAnimator": {
+  "vmt": "0x477e60",
+  "parent": "TRxImageControl",
+  "methods": []
+ },
+ "TJPEGData": {
+  "vmt": "0x479570",
+  "parent": "TSharedImage",
+  "methods": []
+ },
+ "TJPEGImage": {
+  "vmt": "0x4795cc",
+  "parent": "TGraphic",
+  "methods": []
+ },
+ "EJPEG": {
+  "vmt": "0x47974c",
+  "parent": "EInvalidGraphic",
+  "methods": []
+ },
+ "TAppEvents": {
+  "vmt": "0x48cd50",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TAppEventList": {
+  "vmt": "0x48d2a4",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TRxTrayIcon": {
+  "vmt": "0x48e4c4",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TSecretPanel": {
+  "vmt": "0x48f534",
+  "parent": "TCustomPanel",
+  "methods": []
+ },
+ "TRxSpeedButton": {
+  "vmt": "0x48fe44",
+  "parent": "TGraphicControl",
+  "methods": []
+ },
+ "TButtonImage": {
+  "vmt": "0x4906c4",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TRxButtonGlyph": {
+  "vmt": "0x490730",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TOleForm": {
+  "vmt": "0x494c98",
+  "parent": "TInterfacedObject",
+  "methods": []
+ },
+ "TRxTextAttributes": {
+  "vmt": "0x4956bc",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TRxParaAttributes": {
+  "vmt": "0x495754",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TRxCustomRichEdit": {
+  "vmt": "0x495aa4",
+  "parent": "TCustomMemo",
+  "methods": []
+ },
+ "TRxRichEdit": {
+  "vmt": "0x495ca0",
+  "parent": "TRxCustomRichEdit",
+  "methods": []
+ },
+ "TRichEditOleCallback": {
+  "vmt": "0x498214",
+  "parent": "TObject",
+  "methods": []
+ },
+ "TOleUIObjInfo": {
+  "vmt": "0x4986d8",
+  "parent": "TInterfacedObject",
+  "methods": []
+ },
+ "TOleUILinkInfo": {
+  "vmt": "0x498af4",
+  "parent": "TInterfacedObject",
+  "methods": []
+ },
+ "TRxMainMenu": {
+  "vmt": "0x49d6ac",
+  "parent": "TMainMenu",
+  "methods": []
+ },
+ "TRxPopupMenu": {
+  "vmt": "0x49d914",
+  "parent": "TPopupMenu",
+  "methods": []
+ },
+ "TOwnerDrawComboBox": {
+  "vmt": "0x4a0a78",
+  "parent": "TCustomComboBox",
+  "methods": []
+ },
+ "TColorComboBox": {
+  "vmt": "0x4a0be8",
+  "parent": "TOwnerDrawComboBox",
+  "methods": []
+ },
+ "TFontComboBox": {
+  "vmt": "0x4a13ec",
+  "parent": "TOwnerDrawComboBox",
+  "methods": []
+ },
+ "TCores": {
+  "vmt": "0x4a2d6c",
+  "parent": "TForm",
+  "methods": [
+   [
+    "BitBtn1Click",
+    "0x4a3014"
+   ],
+   [
+    "BitBtn2Click",
+    "0x4a343c"
+   ],
+   [
+    "fundoClick",
+    "0x4a344c"
+   ],
+   [
+    "fonteClick",
+    "0x4a3500"
+   ],
+   [
+    "FormActivate",
+    "0x4a35b4"
+   ],
+   [
+    "SegundoClick",
+    "0x4a37f4"
+   ],
+   [
+    "pokClick",
+    "0x4a3824"
+   ]
+  ]
+ },
+ "Tabout": {
+  "vmt": "0x4a38dc",
+  "parent": "TForm",
+  "methods": [
+   [
+    "BitBtn1Click",
+    "0x4a3ac4"
+   ],
+   [
+    "FormActivate",
+    "0x4a3acc"
+   ],
+   [
+    "FormClose",
+    "0x4a3adc"
+   ],
+   [
+    "Timer1Timer",
+    "0x4a3aec"
+   ],
+   [
+    "SecretPanel1Click",
+    "0x4a3b1c"
+   ]
+  ]
+ },
+ "Tyellow": {
+  "vmt": "0x4a3be0",
+  "parent": "TForm",
+  "methods": [
+   [
+    "Image1Click",
+    "0x4a3d20"
+   ]
+  ]
+ },
+ "TNMReg": {
+  "vmt": "0x4a41ac",
+  "parent": "TObject",
+  "methods": []
+ },
+ "ESockError": {
+  "vmt": "0x4a42a8",
+  "parent": "Exception",
+  "methods": []
+ },
+ "EAbortError": {
+  "vmt": "0x4a4300",
+  "parent": "ESockError",
+  "methods": []
+ },
+ "TThreadTimer": {
+  "vmt": "0x4a4358",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TPowersock": {
+  "vmt": "0x4a4478",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TNMUUProcessor": {
+  "vmt": "0x4a6c6c",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TExStringList": {
+  "vmt": "0x4a7230",
+  "parent": "TStringList",
+  "methods": []
+ },
+ "TPostMessage": {
+  "vmt": "0x4a7670",
+  "parent": "TPersistent",
+  "methods": []
+ },
+ "TNMSMTP": {
+  "vmt": "0x4a78c4",
+  "parent": "TPowersock",
+  "methods": []
+ },
+ "Temail": {
+  "vmt": "0x4a9568",
+  "parent": "TForm",
+  "methods": [
+   [
+    "enviarClick",
+    "0x4a9a84"
+   ],
+   [
+    "Fechar1Click",
+    "0x4a9b28"
+   ],
+   [
+    "Novo1Click",
+    "0x4a9b30"
+   ],
+   [
+    "Abrir1Click",
+    "0x4a9b40"
+   ],
+   [
+    "Salvar1Click",
+    "0x4a9bb8"
+   ],
+   [
+    "Enviar1Click",
+    "0x4a9c20"
+   ],
+   [
+    "Fchar1Click",
+    "0x4a9c34"
+   ],
+   [
+    "cancelClick",
+    "0x4a9c3c"
+   ],
+   [
+    "Enviar2Click",
+    "0x4a9c44"
+   ],
+   [
+    "Fonte1Click",
+    "0x4a9c58"
+   ],
+   [
+    "NMSMTP1Success",
+    "0x4a9c80"
+   ],
+   [
+    "NMSMTP1AuthenticationFailed",
+    "0x4a9cc8"
+   ],
+   [
+    "NMSMTP1Connect",
+    "0x4a9cf4"
+   ],
+   [
+    "NMSMTP1ConnectionFailed",
+    "0x4a9d2c"
+   ],
+   [
+    "NMSMTP1ConnectionRequired",
+    "0x4a9d74"
+   ],
+   [
+    "NMSMTP1Failure",
+    "0x4a9dbc"
+   ],
+   [
+    "NMSMTP1HeaderIncomplete",
+    "0x4a9df4"
+   ],
+   [
+    "NMSMTP1HostResolved",
+    "0x4a9e50"
+   ],
+   [
+    "NMSMTP1InvalidHost",
+    "0x4a9e8c"
+   ],
+   [
+    "NMSMTP1PacketSent",
+    "0x4a9f30"
+   ],
+   [
+    "NMSMTP1SendStart",
+    "0x4aa000"
+   ],
+   [
+    "NMSMTP1Status",
+    "0x4aa030"
+   ],
+   [
+    "Timer1Timer",
+    "0x4aa084"
+   ],
+   [
+    "Sair1Click",
+    "0x4aa0dc"
+   ],
+   [
+    "FormActivate",
+    "0x4aa0ec"
+   ]
+  ]
+ },
+ "ESpeedbarError": {
+  "vmt": "0x4aa1f8",
+  "parent": "Exception",
+  "methods": []
+ },
+ "TSpeedBar": {
+  "vmt": "0x4aa3b4",
+  "parent": "TCustomPanel",
+  "methods": []
+ },
+ "TSpeedItem": {
+  "vmt": "0x4aacdc",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TSpeedbarSection": {
+  "vmt": "0x4ab280",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TBtnControl": {
+  "vmt": "0x4ab394",
+  "parent": "TCustomControl",
+  "methods": []
+ },
+ "TSpeedbarButton": {
+  "vmt": "0x4ab77c",
+  "parent": "TRxSpeedButton",
+  "methods": []
+ },
+ "TRxSpinButton": {
+  "vmt": "0x4afe94",
+  "parent": "TGraphicControl",
+  "methods": []
+ },
+ "TRxSpinEdit": {
+  "vmt": "0x4b0308",
+  "parent": "TCustomEdit",
+  "methods": []
+ },
+ "TRxUpDown": {
+  "vmt": "0x4b17f0",
+  "parent": "TCustomUpDown",
+  "methods": []
+ },
+ "TClipboardMonitor": {
+  "vmt": "0x4b2ba0",
+  "parent": "TComponent",
+  "methods": []
+ },
+ "TOpenPictureDialog": {
+  "vmt": "0x4b2ea4",
+  "parent": "TOpenDialog",
+  "methods": []
+ },
+ "TParaFormatDlg": {
+  "vmt": "0x4b3a2c",
+  "parent": "TForm",
+  "methods": [
+   [
+    "FormCreate",
+    "0x4b3e3c"
+   ]
+  ]
+ },
+ "TMainForm": {
+  "vmt": "0x4b3ed8",
+  "parent": "TForm",
+  "methods": [
+   [
+    "SelectionChange",
+    "0x4b4e10"
+   ],
+   [
+    "FormCreate",
+    "0x4b5448"
+   ],
+   [
+    "ShowHint",
+    "0x4b577c"
+   ],
+   [
+    "FileNew",
+    "0x4b57c8"
+   ],
+   [
+    "FileOpen",
+    "0x4b5934"
+   ],
+   [
+    "FileSave",
+    "0x4b59b4"
+   ],
+   [
+    "FileSaveAs",
+    "0x4b5a70"
+   ],
+   [
+    "FilePrint",
+    "0x4b5bf0"
+   ],
+   [
+    "FileExit",
+    "0x4b5c18"
+   ],
+   [
+    "EditUndo",
+    "0x4b5c20"
+   ],
+   [
+    "EditCut",
+    "0x4b5c68"
+   ],
+   [
+    "EditCopy",
+    "0x4b5c74"
+   ],
+   [
+    "EditPaste",
+    "0x4b5c80"
+   ],
+   [
+    "HelpAbout",
+    "0x4b5cd0"
+   ],
+   [
+    "SelectFont",
+    "0x4b5d08"
+   ],
+   [
+    "RulerResize",
+    "0x4b5d54"
+   ],
+   [
+    "FormResize",
+    "0x4b5d80"
+   ],
+   [
+    "FormPaint",
+    "0x4b5d9c"
+   ],
+   [
+    "BoldButtonClick",
+    "0x4b5da4"
+   ],
+   [
+    "ItalicButtonClick",
+    "0x4b5e0c"
+   ],
+   [
+    "FontSizeChange",
+    "0x4b5f38"
+   ],
+   [
+    "AlignButtonClick",
+    "0x4b5f70"
+   ],
+   [
+    "FontNameChange",
+    "0x4b5f90"
+   ],
+   [
+    "UnderlineButtonClick",
+    "0x4b5e74"
+   ],
+   [
+    "BulletsButtonClick",
+    "0x4b5ff0"
+   ],
+   [
+    "FormCloseQuery",
+    "0x4b601c"
+   ],
+   [
+    "RulerItemMouseDown",
+    "0x4b60b4"
+   ],
+   [
+    "RulerItemMouseMove",
+    "0x4b6160"
+   ],
+   [
+    "FirstIndMouseUp",
+    "0x4b61cc"
+   ],
+   [
+    "LeftIndMouseUp",
+    "0x4b6234"
+   ],
+   [
+    "RightIndMouseUp",
+    "0x4b62e8"
+   ],
+   [
+    "FormShow",
+    "0x4b64f0"
+   ],
+   [
+    "RichEditChange",
+    "0x4b6760"
+   ],
+   [
+    "FormDestroy",
+    "0x4b6878"
+   ],
+   [
+    "InsertObject",
+    "0x4b6884"
+   ],
+   [
+    "EditRedo",
+    "0x4b5c44"
+   ],
+   [
+    "InsertBitmap",
+    "0x4b689c"
+   ],
+   [
+    "FormatParaAttributes",
+    "0x4b6954"
+   ],
+   [
+    "EditorURLClick",
+    "0x4b6974"
+   ],
+   [
+    "FormActivate",
+    "0x4b69a8"
+   ],
+   [
+    "EditFindClick",
+    "0x4b6cdc"
+   ],
+   [
+    "EditReplaceClick",
+    "0x4b6d50"
+   ],
+   [
+    "MainMenuGetImageIndex",
+    "0x4b6e3c"
+   ],
+   [
+    "MainMenuMeasureItem",
+    "0x4b6e50"
+   ],
+   [
+    "ColorMenuPopup",
+    "0x4b6ea8"
+   ],
+   [
+    "ColorMenuDrawItem",
+    "0x4b6f90"
+   ],
+   [
+    "SubscriptClick",
+    "0x4b5edc"
+   ],
+   [
+    "EditPasteSpecialClick",
+    "0x4b5c8c"
+   ],
+   [
+    "EditObjPropsItemClick",
+    "0x4b6890"
+   ],
+   [
+    "EditPopupMenuGetImageIndex",
+    "0x4b6e80"
+   ],
+   [
+    "BackgroundMenuPopup",
+    "0x4b6eec"
+   ],
+   [
+    "ProtectedItemClick",
+    "0x4b7028"
+   ],
+   [
+    "DisabledItemClick",
+    "0x4b70b0"
+   ],
+   [
+    "EditorProtectChange",
+    "0x4b7138"
+   ],
+   [
+    "HiddenItemClick",
+    "0x4b70f4"
+   ],
+   [
+    "EditFindNextItemClick",
+    "0x4b6d30"
+   ],
+   [
+    "EditorTextNotFound",
+    "0x4b6da4"
+   ],
+   [
+    "EditSelectAll",
+    "0x4b714c"
+   ],
+   [
+    "FileSaveSelected",
+    "0x4b5b18"
+   ],
+   [
+    "Sair1Click",
+    "0x4b7158"
+   ],
+   [
+    "Fechar1Click",
+    "0x4b7168"
+   ],
+   [
+    "Sair2Click",
+    "0x4b7170"
+   ],
+   [
+    "FormClose",
+    "0x4b7180"
+   ],
+   [
+    "Timer1Timer",
+    "0x4b7190"
+   ],
+   [
+    "Pokmon1Click",
+    "0x4b71e8"
+   ],
+   [
+    "TextodoPokmon1Click",
+    "0x4b72cc"
+   ]
+  ]
+ },
+ "TMarts": {
+  "vmt": "0x4b75ec",
+  "parent": "TForm",
+  "methods": [
+   [
+    "BitBtn1Click",
+    "0x4b7788"
+   ],
+   [
+    "ComboBox1Click",
+    "0x4b7790"
+   ],
+   [
+    "FormActivate",
+    "0x4b8220"
+   ]
+  ]
+ },
+ "Ttm": {
+  "vmt": "0x4b82bc",
+  "parent": "TForm",
+  "methods": [
+   [
+    "ListBox1Click",
+    "0x4b846c"
+   ],
+   [
+    "ListBox2Click",
+    "0x4b8e4c"
+   ],
+   [
+    "Image1Click",
+    "0x4b8f80"
+   ]
+  ]
+ },
+ "TGold": {
+  "vmt": "0x4b900c",
+  "parent": "TForm",
+  "methods": [
+   [
+    "BitBtn1Click",
+    "0x4b9218"
+   ],
+   [
+    "Imprimir1Click",
+    "0x4b9220"
+   ],
+   [
+    "Fonte1Click",
+    "0x4b9284"
+   ],
+   [
+    "Sair1Click",
+    "0x4b92ac"
+   ]
+  ]
+ },
+ "Tinicial": {
+  "vmt": "0x4b9338",
+  "parent": "TForm",
+  "methods": [
+   [
+    "enterClick",
+    "0x4b94a8"
+   ],
+   [
+    "FormActivate",
+    "0x4b94b8"
+   ]
+  ]
+ },
+ "TAPKG": {
+  "vmt": "0x4b9584",
+  "parent": "TForm",
+  "methods": [
+   [
+    "ListBox1Click",
+    "0x4b9df4"
+   ],
+   [
+    "Edit1Change",
+    "0x4d9668"
+   ],
+   [
+    "FormCreate",
+    "0x4f8f00"
+   ],
+   [
+    "Sair1Click",
+    "0x4f948c"
+   ],
+   [
+    "Sobre1Click",
+    "0x4f9494"
+   ],
+   [
+    "Image1Click",
+    "0x4f94cc"
+   ],
+   [
+    "AppEvents1Activate",
+    "0x4f94d4"
+   ],
+   [
+    "AppEvents1Minimize",
+    "0x4f94d8"
+   ],
+   [
+    "AppEvents1Restore",
+    "0x4f9508"
+   ],
+   [
+    "themeDblClick",
+    "0x4f9538"
+   ],
+   [
+    "FormDestroy",
+    "0x4f9554"
+   ],
+   [
+    "t2Click",
+    "0x4f956c"
+   ],
+   [
+    "t1Click",
+    "0x4f96f4"
+   ],
+   [
+    "t3Click",
+    "0x4f987c"
+   ],
+   [
+    "t4Click",
+    "0x4f9a20"
+   ],
+   [
+    "VersoAmarela1Click",
+    "0x4f9bc4"
+   ],
+   [
+    "Imprimir1Click",
+    "0x4f9bfc"
+   ],
+   [
+    "FormActivate",
+    "0x4f9cdc"
+   ],
+   [
+    "sairClick",
+    "0x4fa0c0"
+   ],
+   [
+    "t5Click",
+    "0x4fa0c8"
+   ],
+   [
+    "FormClose",
+    "0x4fa100"
+   ],
+   [
+    "KillerGym1Click",
+    "0x4fa11c"
+   ],
+   [
+    "Sobre2Click",
+    "0x4fa138"
+   ],
+   [
+    "SiteGym1Click",
+    "0x4fa170"
+   ],
+   [
+    "Sair2Click",
+    "0x4fa1d0"
+   ],
+   [
+    "Sair3Click",
+    "0x4fa1d8"
+   ],
+   [
+    "Proteo1Click",
+    "0x4fa1e8"
+   ],
+   [
+    "codeClick",
+    "0x4fa208"
+   ],
+   [
+    "RxGIFAnimator2Click",
+    "0x4fa73c"
+   ],
+   [
+    "Email1Click",
+    "0x4fa74c"
+   ],
+   [
+    "Timer1Timer",
+    "0x4fa784"
+   ],
+   [
+    "WebSite1Click",
+    "0x4fa800"
+   ],
+   [
+    "Atualiza1Click",
+    "0x4fa860"
+   ],
+   [
+    "ListadeitensdosPokMarts1Click",
+    "0x4fa8cc"
+   ],
+   [
+    "ListadeTMseHMs1Click",
+    "0x4fa904"
+   ],
+   [
+    "GoldSilver1Click",
+    "0x4fa93c"
+   ],
+   [
+    "LigadoClick",
+    "0x4fa974"
+   ],
+   [
+    "DesligadoClick",
+    "0x4fa994"
+   ]
+  ]
+ }
+}
