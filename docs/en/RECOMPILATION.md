@@ -61,7 +61,10 @@ Identifiers and comments in the source are in Portuguese, like the original prog
 | `Menu` component | name accepted by Delphi | `MenuBandeja` | in FPC a field can't share the name of the `TForm.Menu` property |
 
 Behaviors **kept on purpose**, even though they look like bugs:
-* searching animates the stat bars even with Efeitos > Desligado (effects off);
+* clicking the list only animates the stat bars with Efeitos > Ligado (effects on; the original
+  default is neither option checked); searching always animates, even with Efeitos > Desligado.
+  Each animation plays once and turns itself off, like `TRxGIFAnimator` (rule verified in the RX
+  Library compiled into the EXE: `TimerExpired` 0x47913c → `SetAnimate(False)` at 0x479108);
 * "Editar / Imprimir" is only enabled after a click in the list (searching doesn't enable it);
 * "Atualizar Agenda" only shows "Você não tem autorização…" (you are not authorized);
 * the "anti-copy" warning when the PrintScreen toggle state is on;

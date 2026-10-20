@@ -59,7 +59,10 @@ begin
 | Componente `Menu` | nome aceito pelo Delphi | `MenuBandeja` | no FPC, campo não pode ter o nome da propriedade `TForm.Menu` |
 
 Comportamentos **mantidos de propósito**, mesmo parecendo bugs:
-* a busca anima as barras mesmo com Efeitos > Desligado;
+* clicar na lista só anima as barras com Efeitos > Ligado (o padrão do original é nenhum dos dois
+  marcado); a busca anima sempre, mesmo com Efeitos > Desligado. Cada animação toca uma vez e
+  se desliga sozinha, como no `TRxGIFAnimator` (regra conferida na RX Library compilada no EXE:
+  `TimerExpired` 0x47913c → `SetAnimate(False)` em 0x479108);
 * "Editar / Imprimir" só é liberado depois de um clique na lista (a busca não libera);
 * "Atualizar Agenda" só mostra "Você não tem autorização…";
 * o aviso "anti-cópia" quando o toggle do PrintScreen está ativo;

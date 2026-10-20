@@ -8,9 +8,11 @@
   continuam editáveis no Lazarus sem pacote extra.
 
   Comportamento espelhado do TRxGIFAnimator:
-    Animate = False  -> mostra o quadro 0
-    Animate = True   -> toca a animação; com Loop = False para no último quadro
-    Clear            -> TRxGIFAnimator.Image.Clear (deixa a área vazia) }
+    Animate = True   -> toca a animação a partir do quadro atual
+    Loop = False     -> toca uma vez, volta ao quadro 0 e desliga Animate sozinho
+    LoadFromFile     -> volta ao quadro 0; continua animando se Animate estiver ligado
+    Clear            -> TRxGIFAnimator.Image.Clear (deixa a área vazia)
+  (regras conferidas na RX Library compilada dentro do EXE original, ver TimerTick) }
 unit ugifplayer;
 
 {$mode objfpc}{$H+}
@@ -52,6 +54,7 @@ type
     procedure SetAnimate(AValue: Boolean);
     procedure TimerTick(Sender: TObject);
     procedure ShowFrame(I: Integer);
+    procedure StartTimer;
   public
     constructor Create(AOwner: TComponent; ATarget: TImage; ALoop: Boolean = True); reintroduce;
     destructor Destroy; override;
@@ -457,6 +460,18 @@ begin
   FTarget.Transparent := True;
 end;
 
+procedure TGifPlayer.StartTimer;
+begin
+  FTimer.Enabled := False;
+  if FAnimate and (FGif.Count > 1) then
+  begin
+    FTimer.Interval := FGif.Delays[FIndex];
+    FTimer.Enabled := True;
+  end;
+end;
+
+{ TRxGIFAnimator: carregar outra imagem volta ao quadro 0 e, se Animate estiver
+  ligado, a animação continua a partir dele. Animate não é alterado. }
 procedure TGifPlayer.LoadFromFile(const FileName: string);
 begin
   FTimer.Enabled := False;
@@ -469,7 +484,7 @@ begin
     Exit;
   end;
   ShowFrame(0);
-  SetAnimate(FAnimate);
+  StartTimer;
 end;
 
 procedure TGifPlayer.Clear;
@@ -479,36 +494,36 @@ begin
   FTarget.Picture.Clear;
 end;
 
+{ Mesma regra de TRxGIFAnimator.SetAnimate (0x479414): não faz nada se o valor
+  não mudou; ligar continua do quadro atual; desligar só para o timer. }
 procedure TGifPlayer.SetAnimate(AValue: Boolean);
 begin
+  if AValue = FAnimate then Exit;
   FAnimate := AValue;
-  FTimer.Enabled := False;
-  if FGif.Count = 0 then Exit;
-  if FAnimate and (FGif.Count > 1) then
-  begin
-    ShowFrame(0);
-    FTimer.Interval := FGif.Delays[0];
-    FTimer.Enabled := True;
-  end
-  else if not FAnimate then
-    ShowFrame(0);
+  if FAnimate then
+    StartTimer
+  else
+    FTimer.Enabled := False;
 end;
 
+{ Mesma regra de TRxGIFAnimator.TimerExpired (0x47913c): avança e, depois do
+  último quadro, volta ao 0. Sem Loop, ao voltar ao quadro 0 a animação se
+  desliga sozinha (0x4792ba -> 0x479108: SetAnimate(False)). Por isso, no
+  original, as barras só animam de novo quando alguém liga Animate outra vez:
+  um clique com "Efeitos > Ligado" ou uma busca (Edit1Change). }
 procedure TGifPlayer.TimerTick(Sender: TObject);
 var
   Next: Integer;
 begin
+  if FGif.Count < 2 then Exit;
   Next := FIndex + 1;
-  if Next >= FGif.Count then
-  begin
-    if not FLoop then
-    begin
-      FTimer.Enabled := False;
-      Exit;
-    end;
-    Next := 0;
-  end;
+  if Next >= FGif.Count then Next := 0;
   ShowFrame(Next);
+  if (not FLoop) and (Next = 0) then
+  begin
+    SetAnimate(False);
+    Exit;
+  end;
   FTimer.Interval := FGif.Delays[Next];
 end;
 
